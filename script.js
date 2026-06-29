@@ -7,8 +7,8 @@ const realmobileData = [
   {name:'Claude Opus 4.7', val:60.0},
   {name:'Gemini 3.1 Flash', val:58.0},
   {name:'MAI-UI-8B', val:33.0},
-  {name:'GUI-Owl-1.5-32B-Thk', val:31.0},
-  {name:'UI-Venus-1.5-30B', val:21.0},
+  {name:'GUI-Owl-1.5-32B-Thinking', val:31.0},
+  {name:'UI-Venus-1.5-30B-A3B', val:21.0},
   {name:'Step-GUI-8B', val:15.0},
 ];
 
@@ -17,10 +17,10 @@ const androidworldData = [
   {name:'UI-Venus-1.5-30B-A3B', val:77.6},
   {name:'UI-Venus-1.5-8B', val:73.7},
   {name:'UI-TARS-2', val:73.3},
-  {name:'GUI-Owl-1.5-8B-Thk', val:71.6},
+  {name:'GUI-Owl-1.5-8B-Thinking', val:71.6},
   {name:'Seed 1.8', val:70.7},
   {name:'MAI-UI-8B', val:70.7},
-  {name:'GUI-Owl-1.5-32B-Inst', val:69.8},
+  {name:'GUI-Owl-1.5-32B-Instruct', val:69.8},
   {name:'Step-GUI-8B', val:67.7},
   {name:'UI-TARS-1.5', val:64.2},
 ];
@@ -57,7 +57,7 @@ const barObserver = new IntersectionObserver((entries)=>{
 document.querySelectorAll('.bars').forEach(b=>barObserver.observe(b));
 
 // ---------- Reveal on scroll ----------
-const revealEls = document.querySelectorAll('.card, .pillar, .figure, .domain-card, .method-block, .cite-box, .contrib-grid, .train-flow, .grounding-stats, .stat');
+const revealEls = document.querySelectorAll('.card, .pillar, .figure, .domain-card, .method-block, .cite-box, .train-flow');
 revealEls.forEach(el=>el.classList.add('reveal'));
 const revObserver = new IntersectionObserver((entries)=>{
   entries.forEach(e=>{
