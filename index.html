@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Xiaomi-GUI-0: A Native GUI Agent for Real Mobile Environments</title>
+<meta name="description" content="Xiaomi-GUI-0 is a native end-to-end multimodal GUI agent for real mobile environments, trained and evaluated within a real-device closed loop.">
+<link rel="icon" type="image/png" href="assets/logo/xiaomi_logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=4">
+</head>
+<body>
+
+<!-- ===================== NAV ===================== -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a class="nav-brand" href="#top">
+      <img src="assets/logo/xiaomi_logo.png" alt="Xiaomi logo">
+      <span>Xiaomi-GUI-0</span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" onclick="document.getElementById('navlinks').classList.toggle('open')">☰</button>
+    <div class="nav-links" id="navlinks">
+      <a href="#overview">Overview</a>
+      <a href="#demos">Demos</a>
+      <a href="#results">Results</a>
+      <a href="#benchmark">RealMobile</a>
+      <a href="#method">Method</a>
+      <a href="#cases">Cases</a>
+      <a href="#cite">Cite</a>
+      <a class="nav-cta" href="https://github.com/SeerRay-Lab/Xiaomi-GUI-0" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ===================== HERO ===================== -->
+<header id="top" class="hero">
+  <div class="hero-glow"></div>
+  <div class="container hero-inner">
+    <img class="hero-logo" src="assets/logo/xiaomi_logo.png" alt="Xiaomi-GUI-0">
+    <p class="eyebrow">Native End-to-End Mobile GUI Agent</p>
+    <h1 class="hero-title">Xiaomi-GUI-0</h1>
+    <p class="hero-sub">Training and evaluating a multimodal GUI agent inside a
+      <strong>real-device closed loop</strong> &mdash; closing the gap between
+      benchmark scores and real-world usability.</p>
+
+    <p class="hero-authors">Mimir Team &middot; Xiaomi</p>
+
+    <div class="btn-row">
+      <a class="btn btn-dark" href="#" data-pdf>
+        <span class="ico">📄</span> Technical Report
+      </a>
+      <a class="btn btn-dark" href="https://github.com/SeerRay-Lab/Xiaomi-GUI-0" target="_blank" rel="noopener">
+        <svg class="ico-svg" viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg> Code
+      </a>
+      <a class="btn btn-dark" href="https://huggingface.co/SeerRay-Lab/Xiaomi-GUI-0" target="_blank" rel="noopener">
+        <span class="ico">🤗</span> HuggingFace
+      </a>
+    </div>
+
+    <div class="model-tags">
+      <span class="model-tag"><strong>Xiaomi-GUI-0</strong> · 30B-A3B</span>
+      <span class="model-tag">Backbone: Qwen3-VL-30B-A3B</span>
+    </div>
+
+    <!-- KEY STATS -->
+    <div class="stats">
+      <div class="stat">
+        <div class="stat-num">72.0<span>%</span></div>
+        <div class="stat-label">RealMobile<br>task completion</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">78.9<span>%</span></div>
+        <div class="stat-label">AndroidWorld<br>success rate</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">100</div>
+        <div class="stat-label">real-device<br>benchmark tasks</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">14</div>
+        <div class="stat-label">live commercial<br>applications</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ===================== OVERVIEW / ABSTRACT ===================== -->
+<section id="overview" class="section">
+  <div class="container narrow">
+    <h2 class="section-title">Overview</h2>
+    <p class="lead">
+      GUI agents complete user tasks end-to-end in real applications through
+      interface-level actions &mdash; tapping, swiping, text entry, and page navigation.
+      Yet existing mobile agents are trained and measured largely on offline trajectories,
+      simulated environments, and static benchmarks, which differ sharply from real apps in
+      layout, interaction logic, and the distribution of abnormal states.
+    </p>
+    <p>
+      On real devices, factors such as account states, permission dialogs, payment
+      authentication, and risk-control mechanisms continually reshape the state distribution
+      encountered during execution &mdash; opening a persistent gap between high benchmark scores
+      and real-world usability. To close this gap, we propose <b>Xiaomi-GUI-0</b>, a native
+      end-to-end multimodal GUI agent for real mobile environments, trained and evaluated within
+      a <b>real-device closed loop</b>.
+    </p>
+
+    <div class="pillars">
+      <div class="pillar">
+        <div class="pillar-ico">📱</div>
+        <h3>Real-Device-Dominant Infrastructure</h3>
+        <p>Hundreds of physical phones and tablets as the primary execution substrate, with
+          sandboxes for scalable, reproducible collection &mdash; so data, training, rollout,
+          and evaluation share a real deployment distribution.</p>
+      </div>
+      <div class="pillar">
+        <div class="pillar-ico">🔁</div>
+        <h3>Error-Driven Data Flywheel</h3>
+        <p>Failure trajectories from real rollouts are turned into corrected actions, reflective
+          explanations, and recovery demonstrations &mdash; direct supervision for abnormal-state
+          recognition and self-recovery.</p>
+      </div>
+      <div class="pillar">
+        <div class="pillar-ico">🎯</div>
+        <h3>Progressive Three-Stage Training</h3>
+        <p>SFT &rarr; Step-level RL &rarr; Agentic RL incrementally builds basic interface
+          operation, long-horizon planning, and error recovery.</p>
+      </div>
+      <div class="pillar">
+        <div class="pillar-ico">🧪</div>
+        <h3>RealMobile Benchmark</h3>
+        <p>100 tasks across 14 live apps, scored by fine-grained sub-goals on physical devices,
+          with 57% spanning multiple applications.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== DEMOS ===================== -->
+<section id="demos" class="section section-alt">
+  <div class="container">
+    <h2 class="section-title">Demos</h2>
+    <p class="section-intro">
+      Xiaomi-GUI-0 executing real, long-horizon tasks on physical devices &mdash; including
+      cross-application planning, image-based search, and multi-app information aggregation.
+    </p>
+
+    <div class="demo-carousel">
+      <div class="demo-viewport">
+        <div class="demo-track" id="demoTrack">
+          <!-- Slide 1 -->
+          <figure class="demo-slide">
+            <div class="demo-video">
+              <video controls preload="metadata" playsinline>
+                <source src="assets/videos/demo1.mov" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <figcaption class="demo-cap">
+              <span class="demo-badge">Task 1 · E-commerce filtering</span>
+              <span class="demo-app">Dewu (得物)</span>
+              <p class="demo-query">“在得物给我找个足球鞋，我要 24 小时发货的、300 元以上的、蓝色、适合男性的，
+                并且是李宁 / Nike / 阿迪达斯这三个品牌的；有合适的话帮我加入‘我想要’，最多加入三个就可以了。”</p>
+            </figcaption>
+          </figure>
+
+          <!-- Slide 2 -->
+          <figure class="demo-slide">
+            <div class="demo-video">
+              <video controls preload="metadata" playsinline>
+                <source src="assets/videos/demo2.mov" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <figcaption class="demo-cap">
+              <span class="demo-badge">Task 2 · Cross-app image search</span>
+              <span class="demo-app">Xiaohongshu (小红书) → Dewu (得物)</span>
+              <p class="demo-query">“在小红书上搜索‘樊振东东京奥运会蓝色球衣’，将其中一个产品图片保存到相册，
+                然后用保存的图片在得物上搜索相同的商品，并将其添加到‘我想要’。”</p>
+            </figcaption>
+          </figure>
+
+          <!-- Slide 3 -->
+          <figure class="demo-slide">
+            <div class="demo-video">
+              <video controls preload="metadata" playsinline>
+                <source src="assets/videos/demo3.mov" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <figcaption class="demo-cap">
+              <span class="demo-badge">Task 3 · Multi-app planning</span>
+              <span class="demo-app">Ctrip (携程) → Amap (高德地图)</span>
+              <p class="demo-query">“去携程查询明天下午从北京飞往上海的最早一班机票，记下起飞时间；
+                假设我必须在起飞前 2 小时到达机场安检，然后打开高德地图，查从北京颐和园到机场地铁需要多少分钟，
+                最后帮我总结一份明早出行计划。”</p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <button class="demo-nav prev" id="demoPrev" aria-label="Previous demo">&#8249;</button>
+        <button class="demo-nav next" id="demoNext" aria-label="Next demo">&#8250;</button>
+      </div>
+    </div>
+
+    <div class="demo-dots" id="demoDots">
+      <button class="demo-dot active" data-idx="0" aria-label="Go to demo 1"></button>
+      <button class="demo-dot" data-idx="1" aria-label="Go to demo 2"></button>
+      <button class="demo-dot" data-idx="2" aria-label="Go to demo 3"></button>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== RESULTS ===================== -->
+<section id="results" class="section">
+  <div class="container">
+    <h2 class="section-title">Results</h2>
+    <p class="section-intro">
+      On the real-device benchmark <b>RealMobile</b>, Xiaomi-GUI-0 substantially outperforms
+      locally deployable open-source models and approaches frontier proprietary systems, while
+      reaching the best result on <b>AndroidWorld</b> among evaluated models.
+    </p>
+
+    <!-- Bar comparison: RealMobile success -->
+    <div class="card">
+      <h3 class="card-title">RealMobile — Task Completion (Success %)</h3>
+      <div class="bars" id="bars-realmobile"></div>
+    </div>
+
+    <!-- Two-up: AndroidWorld bars + per-domain note -->
+    <div class="card">
+      <h3 class="card-title">AndroidWorld — Success Rate (%)</h3>
+      <div class="bars" id="bars-androidworld"></div>
+    </div>
+
+    <!-- Main table -->
+    <div class="card">
+      <h3 class="card-title">Navigation Results</h3>
+      <p class="card-note">Success = fraction of fully completed tasks; Progress = mean fraction
+        of completed sub-goals per task. Reported as mean@4 over four runs.</p>
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Model</th>
+              <th>RealMobile<br>Success</th>
+              <th>RealMobile<br>Progress</th>
+              <th>AndroidWorld</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="group"><td colspan="4">Proprietary Models</td></tr>
+            <tr><td>Gemini 3.1 Pro</td><td>85.0%</td><td>89.6%</td><td>—</td></tr>
+            <tr><td>Seed 2.0 Pro</td><td>80.0%</td><td>88.1%</td><td>—</td></tr>
+            <tr><td>Seed 1.8</td><td>65.0%</td><td>82.4%</td><td>70.7%</td></tr>
+            <tr><td>Claude Opus 4.7</td><td>60.0%</td><td>74.8%</td><td>—</td></tr>
+            <tr><td>Gemini 3.1 Flash</td><td>58.0%</td><td>72.4%</td><td>—</td></tr>
+            <tr><td>Claude Opus 4.6</td><td>33.0%</td><td>56.7%</td><td>—</td></tr>
+            <tr><td>UI-TARS-2</td><td>—</td><td>—</td><td>73.3%</td></tr>
+            <tr><td>UI-TARS-1.5</td><td>24.0%</td><td>40.5%</td><td>64.2%</td></tr>
+            <tr><td>OpenAI CUA (o3)</td><td>—</td><td>—</td><td>52.5%</td></tr>
+            <tr class="group"><td colspan="4">Open-source Models</td></tr>
+            <tr><td>MAI-UI-8B</td><td>33.0%</td><td>50.8%</td><td>70.7%</td></tr>
+            <tr><td>GUI-Owl-1.5-32B-Thinking</td><td>31.0%</td><td>51.7%</td><td>69.8%</td></tr>
+            <tr><td>GUI-Owl-1.5-8B-Thinking</td><td>26.0%</td><td>39.0%</td><td>71.6%</td></tr>
+            <tr><td>GUI-Owl-1.5-8B-Instruct</td><td>25.0%</td><td>44.0%</td><td>69.0%</td></tr>
+            <tr><td>GUI-Owl-1.5-32B-Instruct</td><td>22.0%</td><td>40.6%</td><td>69.8%</td></tr>
+            <tr><td>UI-Venus-1.5-30B-A3B</td><td>21.0%</td><td>44.6%</td><td>77.6%</td></tr>
+            <tr><td>UI-Venus-1.5-8B</td><td>16.0%</td><td>41.6%</td><td>73.7%</td></tr>
+            <tr><td>Step-GUI-8B</td><td>15.0%</td><td>32.8%</td><td>67.7%</td></tr>
+            <tr class="group ours"><td colspan="4">Ours</td></tr>
+            <tr class="ours-row">
+              <td><b>Xiaomi-GUI-0-30B-A3B</b></td>
+              <td><b>72.0%</b></td><td><b>85.8%</b></td><td><b>78.9%</b></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Per-domain table -->
+    <div class="card">
+      <h3 class="card-title">Per-Domain Results on RealMobile (Success %)</h3>
+      <p class="card-note">Four capability domains. Xiaomi-GUI-0 leads all open-source models and
+        is competitive with frontier proprietary systems.</p>
+      <div class="table-wrap">
+        <table class="data-table compact">
+          <thead>
+            <tr>
+              <th>Model</th>
+              <th>Foundation</th>
+              <th>Safety &amp;<br>Reflection</th>
+              <th>Memory &amp;<br>Knowledge</th>
+              <th>Reasoning &amp;<br>Planning</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="group"><td colspan="5">Proprietary Models</td></tr>
+            <tr><td>Gemini 3.1 Pro</td><td>100.0%</td><td>62.5%</td><td>93.9%</td><td>82.9%</td></tr>
+            <tr><td>Seed 2.0 Pro</td><td>100.0%</td><td>62.5%</td><td>90.9%</td><td>73.2%</td></tr>
+            <tr><td>Claude Opus 4.7</td><td>70.0%</td><td>37.5%</td><td>63.6%</td><td>63.4%</td></tr>
+            <tr><td>Seed 1.8</td><td>70.0%</td><td>43.8%</td><td>60.6%</td><td>75.6%</td></tr>
+            <tr class="group"><td colspan="5">Open-source Models</td></tr>
+            <tr><td>MAI-UI-8B</td><td>50.0%</td><td>31.2%</td><td>30.3%</td><td>31.7%</td></tr>
+            <tr><td>GUI-Owl-1.5-32B-Thinking</td><td>50.0%</td><td>37.5%</td><td>33.3%</td><td>21.9%</td></tr>
+            <tr><td>UI-Venus-1.5-30B-A3B</td><td>40.0%</td><td>18.8%</td><td>24.2%</td><td>14.6%</td></tr>
+            <tr class="group ours"><td colspan="5">Ours</td></tr>
+            <tr class="ours-row">
+              <td><b>Xiaomi-GUI-0-30B-A3B</b></td>
+              <td><b>100.0%</b></td><td><b>43.8%</b></td><td><b>66.7%</b></td><td><b>80.5%</b></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Grounding -->
+    <div class="card">
+      <h3 class="card-title">GUI Grounding (Accuracy %)</h3>
+      <p class="card-note">Despite being optimized for real-world Chinese mobile &amp; cockpit apps,
+        Xiaomi-GUI-0 stays competitive on English/desktop-dominated public grounding benchmarks.</p>
+      <div class="grounding-stats">
+        <div class="gstat"><div class="gnum">94.7%</div><div class="glabel">ScreenSpot-V2</div></div>
+        <div class="gstat"><div class="gnum">82.7%</div><div class="glabel">MMBench-GUI-L2</div></div>
+        <div class="gstat"><div class="gnum">58.7%</div><div class="glabel">OSWorld-G</div></div>
+        <div class="gstat"><div class="gnum">64.2%</div><div class="glabel">OSWorld-G-Refine</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== BENCHMARK ===================== -->
+<section id="benchmark" class="section">
+  <div class="container">
+    <h2 class="section-title">The RealMobile Benchmark</h2>
+    <p class="section-intro">
+      RealMobile is built from real user traffic, hand-rewritten for reproducible evaluation, and
+      executed on <b>physical devices against live applications</b>. It runs entirely on real
+      devices, scores each task through <b>fine-grained sub-goals</b> with partial credit, and
+      most tasks span <b>multiple applications</b>.
+    </p>
+
+    <div class="figure-grid two">
+      <figure class="figure">
+        <img src="assets/figs/app_freq_pie.png" alt="Application frequency in RealMobile">
+        <figcaption>Application frequency across the 100 tasks (193 app instances). Douyin,
+          Xiaohongshu, and Weibo appear most often.</figcaption>
+      </figure>
+      <figure class="figure">
+        <img src="assets/figs/multiapp_bar.png" alt="Applications per task">
+        <figcaption>57% of tasks involve multiple applications — 38% span two apps, 9% three,
+          and 10% four or more.</figcaption>
+      </figure>
+    </div>
+
+    <figure class="figure wide">
+      <img src="assets/figs/app_domain_heatmap.png" alt="Coverage across capability domains">
+      <figcaption>Per-application task counts across the four capability domains, confirming broad
+        coverage in every domain.</figcaption>
+    </figure>
+
+    <div class="domain-grid">
+      <div class="domain-card">
+        <span class="domain-count">10 tasks</span>
+        <h3>Foundation</h3>
+        <p>Basic GUI operations: clicking, scrolling, inputting, and navigating across interfaces.</p>
+      </div>
+      <div class="domain-card">
+        <span class="domain-count">16 tasks</span>
+        <h3>Safety &amp; Reflection</h3>
+        <p>Respecting user-defined boundaries and recognizing when a task should not proceed.</p>
+      </div>
+      <div class="domain-card">
+        <span class="domain-count">33 tasks</span>
+        <h3>Memory &amp; Knowledge</h3>
+        <p>Retaining information across steps and applying external knowledge to complete tasks.</p>
+      </div>
+      <div class="domain-card">
+        <span class="domain-count">41 tasks</span>
+        <h3>Complex Reasoning &amp; Planning</h3>
+        <p>Long-horizon planning, multi-source aggregation, and adaptive decision-making.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===================== METHOD ===================== -->
+<section id="method" class="section section-alt">
+  <div class="container">
+    <h2 class="section-title">Method</h2>
+
+    <!-- Infra -->
+    <div class="method-block">
+      <h3 class="method-h">1 · Real-Device-Dominant Hybrid Infrastructure</h3>
+      <p>Physical devices serve as the primary execution environment with sandboxes as auxiliary
+        support, organized into a resource layer, a scheduling layer, and an execution &amp;
+        collection layer. A <b>Device-Pull</b> scheduler lets idle devices request tasks matching
+        their current readiness, avoiding assignments to devices that become ineligible.</p>
+      <figure class="figure wide">
+        <img src="assets/figs/infra.png" alt="Hybrid infrastructure overview">
+        <figcaption>Hundreds of physical phones and dozens of tablets form the primary execution
+          substrate, complemented by hundreds of sandbox instances.</figcaption>
+      </figure>
+    </div>
+
+    <!-- Data -->
+    <div class="method-block">
+      <h3 class="method-h">2 · Multi-Source Training Data</h3>
+      <p>Three progressive data tiers span the supervision needed for real mobile scenarios:
+        <b>high-frequency task data</b> for head functions and abnormal states,
+        <b>high-generalization data</b> for long-tail intents via function trees and behavior
+        buckets, and <b>agent-capability enhancement data</b> with a five-field structured
+        chain-of-thought schema (Observation, Reflection, Plan, Decision, Memory).</p>
+      <div class="figure-grid two">
+        <figure class="figure">
+          <img src="assets/figs/data.png" alt="High-generalization data pipeline">
+          <figcaption>High-generalization data construction: function trees, behavior-bucket query
+            synthesis, rollout, and two-level cleaning.</figcaption>
+        </figure>
+        <figure class="figure">
+          <img src="assets/figs/query.png" alt="Query synthesis pipeline">
+          <figcaption>Query synthesis across single- and cross-application task types, with
+            LLM-judge filtering and function-point back-tagging.</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <!-- Flywheel -->
+    <div class="method-block">
+      <h3 class="method-h">3 · Error-Driven Data Flywheel</h3>
+      <p>Rather than scaling data volume, the flywheel is organized around the error distribution
+        exposed during real rollouts. <b>Interactive annotation</b> locates the first key error and
+        records the corrected action and reason; <b>teacher-model scoring &amp; takeover</b>
+        detects off-path behavior at scale and demonstrates recovery to a workable path.</p>
+      <figure class="figure wide">
+        <img src="assets/figs/flywheel.png" alt="Teacher scoring and takeover">
+        <figcaption>The student rolls out while the teacher scores each step; sustained
+          below-threshold scores trigger a bounded takeover producing a
+          deviation–diagnosis–recovery segment.</figcaption>
+      </figure>
+    </div>
+
+    <!-- Training -->
+    <div class="method-block">
+      <h3 class="method-h">4 · Progressive Three-Stage Training</h3>
+      <p>A curriculum from dense to sparse feedback. <b>SFT</b> (~1.2M GUI step samples + 4.4M
+        grounding samples) establishes the output protocol and basic interaction.
+        <b>Step RL</b> applies GSPO with a hierarchy-triggered cascade reward to correct local
+        errors. <b>Agentic RL</b> optimizes whole trajectories in real or near-real environments
+        for long-horizon planning and recovery.</p>
+      <div class="train-flow">
+        <div class="train-stage"><span class="ts-num">SFT</span><span class="ts-desc">Supervised Fine-Tuning</span></div>
+        <div class="train-arrow">→</div>
+        <div class="train-stage"><span class="ts-num">Step RL</span><span class="ts-desc">Step-Level RL (GSPO)</span></div>
+        <div class="train-arrow">→</div>
+        <div class="train-stage"><span class="ts-num">Agentic RL</span><span class="ts-desc">Trajectory-Level RL</span></div>
+      </div>
+      <figure class="figure wide">
+        <img src="assets/figs/agentic-rl.png" alt="Agentic RL online training framework">
+        <figcaption>Online training framework for Agentic RL, decoupling inference, environment
+          execution, and data transfer with independent asynchronous state machines.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CASE STUDIES ===================== -->
+<section id="cases" class="section">
+  <div class="container">
+    <h2 class="section-title">Case Studies</h2>
+    <p class="section-intro">
+      Two qualitative trajectories on real devices illustrate complementary aspects of the agent:
+      <b>end-to-end task completion</b> and <b>mid-trajectory error recovery</b>. Click a figure to
+      enlarge.
+    </p>
+
+    <div class="case-grid">
+      <figure class="case-card">
+        <button class="case-img" data-zoom="assets/figs/case1.png" aria-label="Enlarge case 1">
+          <img src="assets/figs/case1.png" alt="Complete real-device execution trajectory" loading="lazy">
+        </button>
+        <figcaption>
+          <span class="case-badge">Case 1 · End-to-end execution</span>
+          <p>A complete execution trajectory, from the initial user instruction to task completion.
+            The agent observes the screen, decomposes the task into sub-goals, and emits a sequence
+            of GUI actions until the goal is reached.</p>
+        </figcaption>
+      </figure>
+
+      <figure class="case-card">
+        <button class="case-img" data-zoom="assets/figs/case2.png" aria-label="Enlarge case 2">
+          <img src="assets/figs/case2.png" alt="Reflection and plan revision trajectory" loading="lazy">
+        </button>
+        <figcaption>
+          <span class="case-badge">Case 2 · Reflection &amp; recovery</span>
+          <p>Reflection and plan revision during interaction. When the observed state deviates from
+            the expected outcome, the agent records the discrepancy, revises its plan, and selects a
+            corrective action rather than continuing the original trajectory.</p>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- Lightbox overlay for enlarging case figures -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+  <img id="lightboxImg" src="" alt="">
+</div>
+
+<!-- ===================== CITATION ===================== -->
+<section id="cite" class="section section-alt">
+  <div class="container narrow">
+    <h2 class="section-title">Citation</h2>
+    <div class="cite-box">
+      <button class="copy-btn" onclick="copyCite(this)">Copy</button>
+      <pre id="bibtex">@techreport{xiaomigui0_2026,
+  title        = {Xiaomi-GUI-0 Technical Report},
+  author       = {Mimir Team},
+  institution  = {Xiaomi},
+  year         = {2026},
+  url          = {https://github.com/SeerRay-Lab/Xiaomi-GUI-0}
+}</pre>
+    </div>
+
+    <h3 class="contrib-h">Contributions &amp; Acknowledgments</h3>
+    <p class="contrib-note">Listed alphabetically by last name.</p>
+    <div class="contrib-grid">
+      <div>
+        <h4>Core Contributors</h4>
+        <p>Wanxia Cao · Chengzhen Duan · Pei Fu · Pengzhi Gao · Niu Lian ·
+           Fazhan Liu · Hui Liu · Heng Qu† · Qinzhuo Wu · Zhehao Yu</p>
+      </div>
+      <div>
+        <h4>Contributors</h4>
+        <p>Tongbo Chen · Anan Du · Shukai Jia · Yuanfa Li · Yike Liu · Cheng Tan ·
+           Changqiao Wu · Jiahui Yang · Yuxuan Yuan · Ruoceng Zhang ·
+           Shaojie Zhang · Jian Zhu</p>
+      </div>
+      <div>
+        <h4>Supervisors</h4>
+        <p>Jian Luan† · Cong Zou</p>
+      </div>
+    </div>
+    <p class="contrib-note">† Corresponding Author</p>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer>
+  <div class="container">
+    <img src="assets/logo/xiaomi_logo.png" alt="Xiaomi" class="footer-logo">
+    <p><strong>Xiaomi-GUI-0</strong> — A Native GUI Agent for Real Mobile Environments</p>
+    <div class="footer-links">
+      <a href="https://github.com/SeerRay-Lab/Xiaomi-GUI-0" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://huggingface.co/SeerRay-Lab/Xiaomi-GUI-0" target="_blank" rel="noopener">HuggingFace</a>
+    </div>
+    <p class="footer-fine">© 2026 Mimir Team, Xiaomi. Project page.</p>
+  </div>
+</footer>
+
+<script src="script.js?v=4"></script>
+</body>
+</html>
