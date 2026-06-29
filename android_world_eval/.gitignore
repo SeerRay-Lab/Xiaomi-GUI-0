@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+poetry.lock
+.pytype/
+.pytest_cache/
+.cache/
+
+# Protobuf generated
+*pb2.py
+*pb2_grpc.py
+
+# IDE
+.idea/
+.vscode/
+*.DS_Store
+
+# Environment
+.env
+.env.*
+tmp/
+
+# Logs and runtime output
+*.log
+nohup.out
+output/
+checkpoints/
+success/
+
+# Experiment logs (large data)
+agent_english_final_logs/
+miui_agent_logs/
+uitars_agent_logs/
+
+# Internal tools (not for open source)
+review-tool/
+run_collect_*.py
+upload_s3.py
+download_s3.py
+DOWN.py
+convert_trajectories.py
+data2parquetv4.py
+eval_speak.py
+test.py
+test_teacher.py
+
+# Internal experiment configs
+run_exps/
+
+# Data files
+app.csv
+app.scv
+cache.json
+aw_app2package.json
+
+# External repos
+gui_agent_utils
+gui_agent_utils_dupe
+OSWorld
+
+# Claude Code
+.claude/

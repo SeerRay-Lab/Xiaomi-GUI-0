@@ -1,0 +1,41 @@
+device:
+  mode: usb
+  name:
+  device_type: phone
+  wifi_endpoint:
+  token: ''
+operation:
+  max_steps: 50
+  back_times: 0
+  sleep_seconds_per_act: 0.0
+  open_timeout: 4
+  screen_sleep_time: 0.65
+  use_compress: true
+  step_by_step: false
+  max_history_images: 0
+  max_turn: 10
+compress:
+  min_pixels: 30
+  max_pixels: 700
+  pixel_factor: 28
+  quality: 50
+model:
+  source: mify
+  mify_api_key: 
+  mify_base_url:
+  model_name: RealGUI
+  custom_url:
+  custom_model_name: UIAgent
+  url:
+  api_key: ''
+  model_name_override: UIAgent
+display:
+  mode: mirror
+  mirror:
+    fps: 15
+    quality: 70
+    scale: 1.0
+    adb_max_size: 1280
+    adb_bit_rate: 8000000
+task:
+  task_file: ''

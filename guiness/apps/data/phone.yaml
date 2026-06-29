@@ -1,0 +1,649 @@
+# phone 端 App 注册表
+# 结构：<标准名>: {pkg: 包名, aliases: [别名1, 别名2, ...]}
+
+系统桌面:
+  pkg: com.miui.home
+  aliases:
+  - 系统桌面
+  - 主页
+  - 桌面
+  - Home
+大众点评:
+  pkg: com.dianping.v1
+  aliases:
+  - 大众点评
+美团:
+  pkg: com.sankuai.meituan
+  aliases:
+  - 美团
+  - 美团外卖
+  - 美团团购
+  - 美团闪购
+小红书:
+  pkg: com.xingin.xhs
+  aliases:
+  - 小红书
+b站:
+  pkg: tv.danmaku.bili
+  aliases:
+  - b站
+  - 哔哩哔哩
+  - 小破站
+  - 哔哩哔哩hd
+  - 嗶哩嗶哩
+  - B站
+  - bilibili
+汽水音乐:
+  pkg: com.luna.music
+  aliases:
+  - 汽水音乐
+苹果音乐:
+  pkg: com.apple.android.music
+  aliases:
+  - 苹果音乐
+  - applemusic
+  - apple music
+小宇宙:
+  pkg: app.podcast.cosmos
+  aliases:
+  - 小宇宙
+抖音:
+  pkg: com.ss.android.ugc.aweme
+  aliases:
+  - 抖音
+  - 抖音商城
+淘宝:
+  pkg: com.taobao.taobao
+  aliases:
+  - 淘宝
+星巴克:
+  pkg: com.starbucks.cn
+  aliases:
+  - 星巴克
+京东:
+  pkg: com.jingdong.app.mall
+  aliases:
+  - 京东
+qq音乐:
+  pkg: com.tencent.qqmusic
+  aliases:
+  - qq音乐
+  - QQ音乐
+支付宝:
+  pkg: com.eg.android.AlipayGphone
+  aliases:
+  - 支付宝
+快手:
+  pkg: com.smile.gifmaker
+  aliases:
+  - 快手
+番茄免费小说:
+  pkg: com.dragon.read
+  aliases:
+  - 番茄免费小说
+  - 番茄小说
+  - 番茄
+百度地图:
+  pkg: com.baidu.BaiduMap
+  aliases:
+  - 百度地图
+微博:
+  pkg: com.sina.weibo
+  aliases:
+  - 微博
+微信:
+  pkg: com.tencent.mm
+  aliases:
+  - 微信
+  - WeChat
+  - weixin
+网易云音乐:
+  pkg: com.netease.cloudmusic
+  aliases:
+  - 网易云音乐
+  - 网易云
+  - 云村
+  - 网抑云
+  - neteasemusic
+  - 网易音乐
+  - 網易雲音樂
+快手极速版:
+  pkg: com.kuaishou.nebula
+  aliases:
+  - 快手极速版
+腾讯视频:
+  pkg: com.tencent.qqlive
+  aliases:
+  - 腾讯视频
+  - 腾讯tv
+闲鱼:
+  pkg: com.taobao.idlefish
+  aliases:
+  - 闲鱼
+  - 咸鱼
+滴滴出行:
+  pkg: com.sdu.didi.psnger
+  aliases:
+  - 滴滴出行
+  - 滴滴
+  - 滴滴出行打车
+  - 滴滴打车
+抖音极速版:
+  pkg: com.ss.android.ugc.aweme.lite
+  aliases:
+  - 抖音极速版
+拼多多:
+  pkg: com.xunmeng.pinduoduo
+  aliases:
+  - 拼多多
+  - 拼夕夕
+  - pdd
+  - 拼爹爹
+  - 多多买菜
+qq:
+  pkg: com.tencent.mobileqq
+  aliases:
+  - qq
+  - QQ
+高德地图:
+  pkg: com.autonavi.minimap
+  aliases:
+  - 高德地图
+  - 高德
+百度:
+  pkg: com.baidu.searchbox
+  aliases:
+  - 百度
+qq浏览器:
+  pkg: com.tencent.mtt
+  aliases:
+  - qq浏览器
+  - QQ浏览器
+夸克:
+  pkg: com.quark.browser
+  aliases:
+  - 夸克
+中国移动:
+  pkg: com.greenpoint.android.mc10086.activity
+  aliases:
+  - 中国移动
+今日头条:
+  pkg: com.ss.android.article.news
+  aliases:
+  - 今日头条
+  - 头条
+交管12123:
+  pkg: com.tmri.app.main
+  aliases:
+  - 交管12123
+  - '12123'
+红果短剧:
+  pkg: com.phoenix.read
+  aliases:
+  - 红果短剧
+  - 红果免费短剧
+  - 红果
+wps office:
+  pkg: cn.wps.moffice_eng
+  aliases:
+  - wps office
+  - wps
+  - wpsoffice
+  - wps_office
+  - WPS office
+  - WPS
+  - WPS_office
+  - WPS Office
+铁路12306:
+  pkg: com.MobileTicket
+  aliases:
+  - 铁路12306
+  - '12306'
+酷狗音乐:
+  pkg: com.kugou.android
+  aliases:
+  - 酷狗音乐
+  - 酷狗
+得物:
+  pkg: com.shizhuang.duapp
+  aliases:
+  - 得物
+  - 毒物
+钉钉:
+  pkg: com.alibaba.android.rimet
+  aliases:
+  - 钉钉
+百度网盘:
+  pkg: com.baidu.netdisk
+  aliases:
+  - 百度网盘
+爱奇艺:
+  pkg: com.qiyi.video
+  aliases:
+  - 爱奇艺
+uc浏览器:
+  pkg: com.UCMobile
+  aliases:
+  - uc浏览器
+  - UC浏览器
+剪映:
+  pkg: com.lemon.lv
+  aliases:
+  - 剪映
+个人所得税:
+  pkg: cn.gov.tax.its
+  aliases:
+  - 个人所得税
+西瓜视频:
+  pkg: com.ss.android.article.video
+  aliases:
+  - 西瓜视频
+  - 西瓜
+  - 西呱视频
+饿了么:
+  pkg: me.ele
+  aliases:
+  - 饿了么
+  - 淘宝闪购
+优酷视频:
+  pkg: com.youku.phone
+  aliases:
+  - 优酷视频
+  - 优酷
+  - 酷喵
+番茄畅听:
+  pkg: com.xs.fm
+  aliases:
+  - 番茄畅听
+  - 番茄免费畅听
+中国联通:
+  pkg: com.sinovatech.unicom.ui
+  aliases:
+  - 中国联通
+qq邮箱:
+  pkg: com.tencent.androidqqmail
+  aliases:
+  - qq邮箱
+  - QQ邮箱
+企业微信:
+  pkg: com.tencent.wework
+  aliases:
+  - 企业微信
+菜鸟:
+  pkg: com.cainiao.wireless
+  aliases:
+  - 菜鸟
+  - 菜鸟驿站
+  - 菜鸟快递
+中国电信:
+  pkg: com.ct.client
+  aliases:
+  - 中国电信
+阿里巴巴:
+  pkg: com.alibaba.wireless
+  aliases:
+  - 阿里巴巴
+  - '1688'
+作业帮:
+  pkg: com.baidu.homework
+  aliases:
+  - 作业帮
+喜马拉雅:
+  pkg: com.ximalaya.ting.android
+  aliases:
+  - 喜马拉雅
+七猫免费小说:
+  pkg: com.kmxs.reader
+  aliases:
+  - 七猫免费小说
+  - 七猫小说
+  - 七猫免费听说
+  - 七猫听说
+  - 七读免费小说
+知乎:
+  pkg: com.zhihu.android
+  aliases:
+  - 知乎
+抖音火山版:
+  pkg: com.ss.android.ugc.live
+  aliases:
+  - 抖音火山版
+boss直聘:
+  pkg: com.hpbr.bosszhipin
+  aliases:
+  - boss直聘
+  - BOSS直聘
+  - boss招聘
+懂车帝:
+  pkg: com.ss.android.auto
+  aliases:
+  - 懂车帝
+携程旅行:
+  pkg: ctrip.android.view
+  aliases:
+  - 携程旅行
+  - 携程
+腾讯会议:
+  pkg: com.tencent.wemeet.app
+  aliases:
+  - 腾讯会议
+美团外卖:
+  pkg: com.sankuai.meituan.takeoutnew
+  aliases:
+  - 美团外卖
+唯品会:
+  pkg: com.achievo.vipshop
+  aliases:
+  - 唯品会
+腾讯新闻:
+  pkg: com.tencent.news
+  aliases:
+  - 腾讯新闻
+天猫:
+  pkg: com.tmall.wireless
+  aliases:
+  - 天猫
+百度贴吧:
+  pkg: com.baidu.tieba
+  aliases:
+  - 百度贴吧
+转转:
+  pkg: com.wuba.zhuanzhuan
+  aliases:
+  - 转转
+芒果tv:
+  pkg: com.hunantv.imgo.activity
+  aliases:
+  - 芒果tv
+  - 芒果TV
+  - 芒果视频
+虎牙直播:
+  pkg: com.duowan.kiwi
+  aliases:
+  - 虎牙直播
+  - 虎牙
+河马剧场:
+  pkg: com.dz.hmjc
+  aliases:
+  - 河马剧场
+  - 河马短剧
+全民k歌:
+  pkg: com.tencent.karaoke
+  aliases:
+  - 全民k歌
+  - 全民K歌
+美图秀秀:
+  pkg: com.mt.mtxx.mtxx
+  aliases:
+  - 美图秀秀
+  - 美图
+醒图:
+  pkg: com.xt.retouch
+  aliases:
+  - 醒图
+快对:
+  pkg: com.kuaiduizuoye.scan
+  aliases:
+  - 快对
+  - 快对ai
+  - 快对AI
+哈啰:
+  pkg: com.jingyao.easybike
+  aliases:
+  - 哈啰
+  - 哈啰出行
+  - 哈啰单车
+  - 哈罗
+腾讯地图:
+  pkg: com.tencent.map
+  aliases:
+  - 腾讯地图
+扫描全能王:
+  pkg: com.intsig.camscanner
+  aliases:
+  - 扫描全能王
+去哪儿旅行:
+  pkg: com.Qunar
+  aliases:
+  - 去哪儿旅行
+美柚:
+  pkg: com.lingan.seeyou
+  aliases:
+  - 美柚
+58同城:
+  pkg: com.wuba
+  aliases:
+  - 58同城
+京东金融:
+  pkg: com.jd.jrapp
+  aliases:
+  - 京东金融
+学习通:
+  pkg: com.chaoxing.mobile
+  aliases:
+  - 学习通
+迅雷:
+  pkg: com.xunlei.downloadprovider
+  aliases:
+  - 迅雷
+阿里云盘:
+  pkg: com.alicloud.databox
+  aliases:
+  - 阿里云盘
+一刻相册:
+  pkg: com.baidu.youavideo
+  aliases:
+  - 一刻相册
+中国移动云盘:
+  pkg: com.chinamobile.mcloud
+  aliases:
+  - 中国移动云盘
+飞书:
+  pkg: com.ss.android.lark
+  aliases:
+  - 飞书
+盒马:
+  pkg: com.wudaokou.hippo
+  aliases:
+  - 盒马
+  - 盒马生鲜
+  - 盒马鲜生
+贝壳找房:
+  pkg: com.lianjia.beike
+  aliases:
+  - 贝壳找房
+  - 贝壳
+keep:
+  pkg: com.gotokeep.keep
+  aliases:
+  - keep
+  - Keep
+豆瓣:
+  pkg: com.douban.frodo
+  aliases:
+  - 豆瓣
+货拉拉:
+  pkg: com.lalamove.huolala.client
+  aliases:
+  - 货拉拉
+同花顺:
+  pkg: com.hexin.plat.android
+  aliases:
+  - 同花顺
+下厨房:
+  pkg: com.xiachufang
+  aliases:
+  - 下厨房
+闪送:
+  pkg: cn.ishansong
+  aliases:
+  - 闪送
+网易有道词典:
+  pkg: com.youdao.dict
+  aliases:
+  - 网易有道词典
+  - 有道词典
+  - 有道
+设置:
+  pkg: com.android.settings
+  aliases:
+  - 设置
+  - 系统设置
+  - Settings
+浏览器:
+  pkg: com.android.browser
+  aliases:
+  - 浏览器
+  - 小米浏览器
+相机:
+  pkg: com.android.camera
+  aliases:
+  - 相机
+  - Camera
+联系人:
+  pkg: com.android.contacts
+  aliases:
+  - 联系人
+  - 通讯录
+  - 电话
+  - 拨号
+文件管理:
+  pkg: com.android.fileexplorer
+  aliases:
+  - 文件管理
+  - 文件管理器
+短信:
+  pkg: com.android.mms
+  aliases:
+  - 短信
+  - 信息
+应用商店:
+  pkg: com.xiaomi.market
+  aliases:
+  - 应用商店
+  - 小米应用商店
+日历:
+  pkg: com.android.calendar
+  aliases:
+  - 日历
+时钟:
+  pkg: com.android.deskclock
+  aliases:
+  - 时钟
+  - 闹钟
+GPS测试:
+  pkg: com.android.gpstest
+  aliases:
+  - GPS测试
+  - GNSS测试
+录音机:
+  pkg: com.android.soundrecorder
+  aliases:
+  - 录音机
+  - 录音
+小米钱包:
+  pkg: com.mipay.wallet
+  aliases:
+  - 小米钱包
+  - 钱包
+计算器:
+  pkg: com.miui.calculator
+  aliases:
+  - 计算器
+相册:
+  pkg: com.miui.gallery
+  aliases:
+  - 相册
+  - 图库
+便签:
+  pkg: com.miui.notes
+  aliases:
+  - 便签
+  - 笔记
+天气:
+  pkg: com.miui.weather2
+  aliases:
+  - 天气
+扫一扫:
+  pkg: com.xiaomi.scanner
+  aliases:
+  - 扫一扫
+  - 扫描
+文档:
+  pkg: com.google.android.documentsui
+  aliases:
+  - 文档
+  - 文件选择器
+邮件:
+  pkg: com.android.email
+  aliases:
+  - 邮件
+  - 邮箱
+下载管理:
+  pkg: com.android.providers.downloads.ui
+  aliases:
+  - 下载
+  - 下载管理
+遥控器:
+  pkg: com.duokan.phone.remotecontroller
+  aliases:
+  - 遥控器
+  - 万能遥控
+多看阅读:
+  pkg: com.duokan.reader
+  aliases:
+  - 多看阅读
+  - 多看
+小米运动健康:
+  pkg: com.mi.health
+  aliases:
+  - 小米运动健康
+  - 运动健康
+指南针:
+  pkg: com.miui.compass
+  aliases:
+  - 指南针
+小米换机:
+  pkg: com.miui.huanji
+  aliases:
+  - 小米换机
+  - 换机
+小米音乐:
+  pkg: com.miui.player
+  aliases:
+  - 小米音乐
+  - 音乐
+全球上网:
+  pkg: com.miui.virtualsim
+  aliases:
+  - 全球上网
+  - 虚拟SIM
+小米游戏中心:
+  pkg: com.xiaomi.gamecenter
+  aliases:
+  - 小米游戏中心
+  - 游戏中心
+小米商城:
+  pkg: com.xiaomi.shop
+  aliases:
+  - 小米商城
+米家:
+  pkg: com.xiaomi.smarthome
+  aliases:
+  - 米家
+  - 小米智能家庭
+快游戏:
+  pkg: com.xiaomi.tinygame
+  aliases:
+  - 快游戏
+  - 小游戏
+小米社区:
+  pkg: com.xiaomi.vipaccount
+  aliases:
+  - 小米社区
+  - 小米会员
+小米有品:
+  pkg: com.xiaomi.youpin
+  aliases:
+  - 小米有品
+  - 有品

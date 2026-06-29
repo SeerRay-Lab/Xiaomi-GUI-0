@@ -1,0 +1,27 @@
+# Guiness 运行时依赖（Python >= 3.9）
+# 版本号为验证过的最低下限，升级请先跑通 build.sh 自检
+
+# GUI 框架（驱动 gui/ 所有窗口与控件）
+PySide6>=6.5.0
+
+# 配置读写（config.yaml、模型配置等）
+PyYAML>=6.0
+
+# 模型推理 HTTP 调用
+requests>=2.28.0
+
+# 截图与图像处理
+Pillow>=10.0.0
+
+# Android 设备 UI 自动化（依赖 adb）
+uiautomator2>=3.0.0
+
+# WiFi 后端屏幕镜像（Guiness Controller 的 /stream WebSocket 客户端）
+websockets>=12.0
+
+# 扫码配对：生成二维码（gui/pairing/qrcode.py）
+qrcode>=7.4.2
+
+# USB 实时投屏（scrcpy H.264 解码）—— 可选：缺失时自动降级到 screencap
+av>=12.0,<14
+numpy>=1.24.0

@@ -1,0 +1,165 @@
+/* ── Guiness — Light theme (token-driven) ──
+   Actual color/size/radius values live in gui/styles/tokens.py.
+   At runtime gui/styles/theme.py reads this file and format_maps the
+   placeholders below. Do NOT hardcode hex values here. */
+
+* {{
+    font-family: {font_family};
+}}
+
+QWidget {{
+    color: {neutral_900};
+    background-color: {neutral_0};
+    font-size: {font_sm}px;
+}}
+
+QMainWindow {{
+    background-color: {neutral_50};
+}}
+
+/* ── Cards / GroupBox ── */
+QGroupBox {{
+    background: {neutral_0};
+    border: 1px solid {neutral_200};
+    border-radius: {radius_md}px;
+    margin-top: 20px;
+    padding: 24px 20px 18px;
+    font-weight: {weight_semi};
+    color: {neutral_900};
+}}
+
+QGroupBox::title {{
+    subcontrol-origin: margin;
+    left: 20px;
+    padding: 2px 12px;
+    color: {neutral_700};
+    font-size: {font_sm}px;
+    font-weight: {weight_semi};
+}}
+
+/* ── Buttons ──
+   Primary = solid black; flat. */
+QPushButton {{
+    background: {neutral_900};
+    color: {neutral_0};
+    border: none;
+    border-radius: {radius_sm}px;
+    padding: 10px 24px;
+    font-weight: {weight_semi};
+    font-size: {font_sm}px;
+    min-height: 22px;
+}}
+
+QPushButton:hover {{ background: {neutral_700}; }}
+QPushButton:pressed {{ background: {neutral_500}; }}
+QPushButton:disabled {{ background: {neutral_200}; color: {neutral_400}; }}
+
+QPushButton#stopButton {{ background: {danger}; color: {neutral_0}; }}
+QPushButton#stopButton:hover {{ background: {danger_hover}; }}
+QPushButton#stopButton:disabled {{ background: {neutral_200}; color: {neutral_400}; }}
+
+QPushButton#ghostButton {{
+    background: transparent;
+    color: {neutral_900};
+    border: 1px solid {neutral_200};
+}}
+QPushButton#ghostButton:hover {{ background: {neutral_100}; border-color: {neutral_300}; }}
+
+/* ── Inputs ── */
+QLineEdit, QSpinBox, QDoubleSpinBox, QComboBox {{
+    background: {neutral_0};
+    border: 1px solid {neutral_200};
+    border-radius: {radius_sm}px;
+    padding: 9px 12px;
+    color: {neutral_900};
+    font-size: {font_sm}px;
+    min-height: 24px;
+    selection-background-color: {accent};
+    selection-color: {neutral_0};
+}}
+
+QLineEdit:focus, QSpinBox:focus, QDoubleSpinBox:focus, QComboBox:focus {{
+    border-color: {accent};
+}}
+
+QLineEdit:disabled, QSpinBox:disabled, QDoubleSpinBox:disabled {{
+    background: {neutral_100}; color: {neutral_400};
+}}
+
+QLineEdit::placeholder {{ color: {neutral_400}; }}
+
+QComboBox::drop-down {{ border: none; padding-right: 10px; }}
+
+QComboBox QAbstractItemView {{
+    background: {neutral_0};
+    border: 1px solid {neutral_200};
+    border-radius: {radius_sm}px;
+    color: {neutral_900};
+    selection-background-color: {neutral_100};
+    selection-color: {neutral_900};
+    padding: 4px;
+    outline: 0;
+}}
+
+QCheckBox {{ color: {neutral_900}; spacing: 8px; }}
+QCheckBox::indicator {{
+    width: 16px; height: 16px;
+    border: 1.5px solid {neutral_300}; border-radius: 4px;
+    background: {neutral_0};
+}}
+QCheckBox::indicator:checked {{ background: {accent}; border-color: {accent}; }}
+
+QRadioButton {{ color: {neutral_900}; spacing: 8px; font-weight: {weight_semi}; }}
+QRadioButton::indicator {{
+    width: 16px; height: 16px;
+    border: 1.5px solid {neutral_300}; border-radius: 8px;
+    background: {neutral_0};
+}}
+QRadioButton::indicator:checked {{ background: {accent}; border-color: {accent}; }}
+
+/* ── Progress bar ── */
+QProgressBar {{
+    background: {neutral_100}; border: none; border-radius: {radius_sm}px;
+    text-align: center; height: 18px;
+    color: {neutral_900}; font-weight: {weight_semi}; font-size: {font_xs}px;
+}}
+QProgressBar::chunk {{
+    background: {accent};
+    border-radius: {radius_sm}px;
+}}
+
+/* ── Scroll bars ── */
+QScrollBar:vertical {{ background: transparent; width: 7px; margin: 2px 1px; }}
+QScrollBar::handle:vertical {{
+    background: {neutral_300}; border-radius: 3px; min-height: 40px;
+}}
+QScrollBar::handle:vertical:hover {{ background: {neutral_500}; }}
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical,
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {{ height: 0; background: none; }}
+
+QScrollBar:horizontal {{ background: transparent; height: 7px; margin: 1px 2px; }}
+QScrollBar::handle:horizontal {{ background: {neutral_300}; border-radius: 3px; min-width: 40px; }}
+QScrollBar::handle:horizontal:hover {{ background: {neutral_500}; }}
+QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal,
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {{ width: 0; background: none; }}
+
+/* ── Splitter ── */
+QSplitter::handle {{ background: {neutral_200}; }}
+QSplitter::handle:horizontal {{ width: 1px; }}
+QSplitter::handle:vertical {{ height: 1px; }}
+
+/* ── Scroll area ── */
+QScrollArea {{ border: none; background: transparent; }}
+
+/* ── ToolButton ── */
+QToolButton {{
+    background: transparent; border: none; border-radius: {radius_sm}px;
+    color: {neutral_700}; font-weight: {weight_semi}; font-size: {font_sm}px; padding: 6px 12px;
+}}
+QToolButton:hover {{ background: {neutral_100}; color: {neutral_900}; }}
+QToolButton:checked {{ background: {neutral_100}; color: {neutral_900}; }}
+
+/* ── Labels ── */
+QLabel#sectionTitle {{ font-size: {font_xl}px; font-weight: {weight_semi}; color: {neutral_900}; }}
+QLabel#subtitle {{ color: {neutral_500}; font-size: {font_sm}px; }}
+QLabel#accentLabel {{ color: {neutral_900}; font-weight: {weight_semi}; }}

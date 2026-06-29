@@ -1,0 +1,44 @@
+.idea/
+.vscode/
+.cursor/
+.claude/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# 构建产物
+build/
+dist/
+# build.sh 下载的 Android platform-tools（每次打包按目标 OS 拉取，不入库）
+vendor/
+
+# 数据（仅忽略仓库根下的运行产物目录，不影响 apps/data/ 之类的源数据）
+/data/
+.local/
+*-navigation/
+results/
+*.jsonl
+
+# 日志
+*.log
+
+# 密钥/本地配置
+.env
+
+# ── Android / Gradle ──
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+android/captures/
+android/*.iml
+android/**/*.iml
+*.apk
+*.aab
+*.aar
+
+# Python 虚拟环境（本地开发，不入库）
+.venv/
+venv/

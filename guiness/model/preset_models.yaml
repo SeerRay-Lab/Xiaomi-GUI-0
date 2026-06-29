@@ -1,0 +1,59 @@
+# Guiness 支持的模型列表
+# 每个模型 ID 映射到一个 adapter（决定 system prompt、message 格式、响应解析方式）
+
+models:
+  vertex_ai/gemini-3.1-pro:
+    adapter: gemini
+    display_name: "Gemini 3.1 Pro"
+
+  gemini-3.1-pro-preview-ai-train:
+    adapter: gemini
+    display_name: "Gemini 3.1 Pro Preview AI Train"
+
+  vertex_ai/gemini-3.1-flash:
+    adapter: gemini
+    display_name: "Gemini 3.1 Flash"
+
+  vertex_ai/gemini-3.5-flash:
+    adapter: gemini
+    display_name: "Gemini 3.5 Flash"
+
+  claude-opus-4-7:
+    adapter: claude
+    display_name: "Claude Opus 4.7"
+
+  claude-opus-4-6:
+    adapter: claude
+    display_name: "Claude Opus 4.6"
+
+  gpt-5.5:
+    adapter: gpt
+    display_name: "GPT 5.5"
+
+  gpt-5.4:
+    adapter: gpt
+    display_name: "GPT 5.4"
+
+  doubao-seed-2-0-pro:
+    adapter: doubao
+    display_name: "Doubao Seed 2.0 Pro"
+
+  doubao-seed-1-8:
+    adapter: doubao
+    display_name: "Doubao Seed 1.8"
+
+  autoglm-phone:
+    adapter: autoglm
+    display_name: "AutoGLM-9B"
+
+  GELab-Zero-4B-preview:
+    adapter: step_gui
+    display_name: "Step-GUI (GELab-Zero-4B)"
+
+  mai-ui:
+    adapter: realgui
+    display_name: "Mai-UI"
+
+  RealGUI:
+    adapter: realgui
+    display_name: "RealGUI"

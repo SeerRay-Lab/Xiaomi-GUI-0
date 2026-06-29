@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Guiness 控制器</string>
+    <string name="accessibility_service_label">Guiness 手势注入</string>
+    <string name="accessibility_service_description">
+        Guiness 通过此服务执行远端下发的点击、滑动、文本输入等操作，仅用于用户授权的自动化任务。
+    </string>
+    <string name="accessibility_service_summary">Guiness 手势与按键注入</string>
+    <string name="notification_channel_name">Guiness 控制服务</string>
+    <string name="notification_channel_desc">常驻通知，用于保持控制器与录屏在前台运行。</string>
+    <string name="notification_title">Guiness 控制器运行中</string>
+</resources>
