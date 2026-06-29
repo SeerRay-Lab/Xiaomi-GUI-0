@@ -1,0 +1,795 @@
+{
+  "summary": {
+    "total_summary_queries": 108,
+    "total_model_trajectories": 335,
+    "exact_matches": 100,
+    "mismatches": 8,
+    "orphan_queries": 1
+  },
+  "exact_matches": [
+    {
+      "id": 1,
+      "summary_query": "关闭b站后台播放",
+      "model": "claude-opus-4-7",
+      "folder": "8c69cece",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/8c69cece"
+    },
+    {
+      "id": 2,
+      "summary_query": "请给b站up主小约翰可汗充2块钱的电",
+      "model": "claude-opus-4-7",
+      "folder": "8e049eb4",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/8e049eb4"
+    },
+    {
+      "id": 3,
+      "summary_query": "给b站影视飓风最新的视频一键三连",
+      "model": "claude-opus-4-7",
+      "folder": "2227de9e",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/2227de9e"
+    },
+    {
+      "id": 4,
+      "summary_query": "打开qq夜间模式",
+      "model": "claude-opus-4-7",
+      "folder": "96c4fcb0",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/96c4fcb0"
+    },
+    {
+      "id": 5,
+      "summary_query": "给我开通qq音乐年会员",
+      "model": "claude-opus-4-7",
+      "folder": "fdf8ec8c",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/fdf8ec8c"
+    },
+    {
+      "id": 6,
+      "summary_query": "对比一下得物、抖音商城以及橘子app上苹果17的价格，最后总结一下三个平台的价格对比",
+      "model": "claude-opus-4-7",
+      "folder": "6ceb1707",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/6ceb1707"
+    },
+    {
+      "id": 7,
+      "summary_query": "打开QQ音乐，搜索歌曲周杰伦的青花瓷、林俊杰演唱的科目三和陈奕迅的孤勇者，将它们依次加入我的喜欢",
+      "model": "claude-opus-4-7",
+      "folder": "7b90c0e7",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/7b90c0e7"
+    },
+    {
+      "id": 8,
+      "summary_query": "去QQ音乐搜林俊杰的热门歌单，播放第一首，然后去B站播放这首歌的演唱会现场版视频",
+      "model": "claude-opus-4-7",
+      "folder": "d8c587f7",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/d8c587f7"
+    },
+    {
+      "id": 9,
+      "summary_query": "我要上小红书发一篇帖子，内容是关于广州的3天旅游感受，你帮我上小红书看一看别人的帖子，挑5个点赞量最高的总结一下。要求文案自然流畅，配图在帖子里找两张，然后直接给我发出去就行",
+      "model": "claude-opus-4-7",
+      "folder": "e43fb020",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/e43fb020"
+    },
+    {
+      "id": 10,
+      "summary_query": "今晚要请几个回族的朋友来家里吃饭，去盒马帮我挑三种不同类型的肉，加入购物车",
+      "model": "claude-opus-4-7",
+      "folder": "03601ed6",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/03601ed6"
+    },
+    {
+      "id": 11,
+      "summary_query": "小红书搜索“适合雨天听的歌单”，找到3首歌，去QQ音乐里把它们都加到我的“我喜欢”列表里",
+      "model": "claude-opus-4-7",
+      "folder": "04b8e050",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/04b8e050"
+    },
+    {
+      "id": 12,
+      "summary_query": "我最近想养一只宠物，我比较喜欢python，帮我在小红书搜索一下，找到两篇相关的内容，总结一下喂养指南发个微博",
+      "model": "claude-opus-4-7",
+      "folder": "6ae201d5",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/6ae201d5"
+    },
+    {
+      "id": 13,
+      "summary_query": "我有3个小时的空闲，帮我算一下我最多能看b站热门视频前几个",
+      "model": "claude-opus-4-7",
+      "folder": "e390ce41",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/e390ce41"
+    },
+    {
+      "id": 14,
+      "summary_query": "小红书搜索一下北京的黑珍珠餐厅推荐，找三家川菜相关的，然后高德地图收藏距离颐和园最近的那一家",
+      "model": "claude-opus-4-7",
+      "folder": "a67df70e",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/a67df70e"
+    },
+    {
+      "id": 15,
+      "summary_query": "把我的微博账号注销",
+      "model": "claude-opus-4-7",
+      "folder": "3c8754a9",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/3c8754a9"
+    },
+    {
+      "id": 16,
+      "summary_query": "看一下微博雷军最近宣发的产品，帮我在抖音上搜一下这个产品热度最高的内容，看看评论区的五条评价，然后发个微博说一下用户对产品的看法",
+      "model": "claude-opus-4-7",
+      "folder": "16709796",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/16709796"
+    },
+    {
+      "id": 17,
+      "summary_query": "抖音商城买一双30块钱以上销量最高的男士拖鞋",
+      "model": "claude-opus-4-7",
+      "folder": "58397727",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/58397727"
+    },
+    {
+      "id": 18,
+      "summary_query": "打开抖音的自动连播",
+      "model": "claude-opus-4-7",
+      "folder": "fa25732a",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/fa25732a"
+    },
+    {
+      "id": 19,
+      "summary_query": "查看雷军在抖音、b站和微博一共有多少粉丝，然后私信发送给雷军的抖音账号",
+      "model": "claude-opus-4-7",
+      "folder": "a72d37fe",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/a72d37fe"
+    },
+    {
+      "id": 20,
+      "summary_query": "请通过抖音、小红书、微博这些app帮我规划一个本周日晚上吃饭+看电影的约会",
+      "model": "claude-opus-4-7",
+      "folder": "26bffab8",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/26bffab8"
+    },
+    {
+      "id": 21,
+      "summary_query": "抖音搜一下小米有哪些女高管，然后去微博关注一下她们",
+      "model": "claude-opus-4-7",
+      "folder": "345c0032",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/345c0032"
+    },
+    {
+      "id": 22,
+      "summary_query": "查看抖音的音乐榜单的前三首歌，用汽水音乐收藏这些歌曲",
+      "model": "claude-opus-4-7",
+      "folder": "2ebf6d79",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/2ebf6d79"
+    },
+    {
+      "id": 23,
+      "summary_query": "打开番茄小说，在完结榜上挑排名前三的小说。我不喜欢看太短的，你帮我对比一下这三本，把字数超过 200万字且在这三本里评分最高的那本小说的名字，发到qq我的电脑",
+      "model": "claude-opus-4-7",
+      "folder": "d3755062",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/d3755062"
+    },
+    {
+      "id": 24,
+      "summary_query": "帮我在携程买一张明天14点左右，北京到天津的高铁票",
+      "model": "claude-opus-4-7",
+      "folder": "c40f605e",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/c40f605e"
+    },
+    {
+      "id": 25,
+      "summary_query": "看一下携程明天早上北京到上海最早的航班，把航班号和起飞时间发送到QQ我的电脑",
+      "model": "claude-opus-4-7",
+      "folder": "d69a17e2",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/d69a17e2"
+    },
+    {
+      "id": 26,
+      "summary_query": "帮我对比一下汽水音乐和qq音乐的会员价格",
+      "model": "claude-opus-4-7",
+      "folder": "4ee3df9c",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/4ee3df9c"
+    },
+    {
+      "id": 27,
+      "summary_query": "我想调研一下微博和今日头条用户的评价特点，去微博热搜榜看看排名前三的社会新闻，浏览几条网友评论，总结一下网友的主要态度（是愤怒、同情还是吃瓜）。带着这个结论去今日头条搜一下这些事件，看看评论区的基调是否和微博有温差。最后在小红书发一个仅自己可见的帖子，写一段两者的态度对比",
+      "model": "claude-opus-4-7",
+      "folder": "e5a260fa",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/e5a260fa"
+    },
+    {
+      "id": 28,
+      "summary_query": "分别给抖音、微博、b站、小红书上雷军最新发布的内容点赞",
+      "model": "claude-opus-4-7",
+      "folder": "b56d10e5",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/b56d10e5"
+    },
+    {
+      "id": 29,
+      "summary_query": "帮我在腾讯视频找一个评分为10分的电视剧，播放这个电视剧",
+      "model": "claude-opus-4-7",
+      "folder": "cd3640a2",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/cd3640a2"
+    },
+    {
+      "id": 30,
+      "summary_query": "取消腾讯视频自动续费",
+      "model": "claude-opus-4-7",
+      "folder": "cfe54e65",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/cfe54e65"
+    },
+    {
+      "id": 31,
+      "summary_query": "浏览腾讯视频高分好评的付费电影，帮我购买排名最前面的动画片",
+      "model": "claude-opus-4-7",
+      "folder": "ca0e00d5",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/ca0e00d5"
+    },
+    {
+      "id": 32,
+      "summary_query": "用高德地图规划一条从北京天安门到美国纽约时代广场的骑行路线",
+      "model": "claude-opus-4-7",
+      "folder": "50148c28",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/50148c28"
+    },
+    {
+      "id": 33,
+      "summary_query": "微博搜索一下凡人修仙传的主题曲，用汽水音乐收藏并且播放",
+      "model": "claude-opus-4-7",
+      "folder": "580b1c86",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/580b1c86"
+    },
+    {
+      "id": 34,
+      "summary_query": "我现在有3克黄金，去今日头条查一下黄金价格，然后帮我算一下以现在的金价是否能够购买抖音苹果旗舰店最新的苹果手机",
+      "model": "claude-opus-4-7",
+      "folder": "76b0b930",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/76b0b930"
+    },
+    {
+      "id": 35,
+      "summary_query": "打开qq音乐设置30分钟后自动关闭",
+      "model": "claude-opus-4-7",
+      "folder": "73675bab",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/73675bab"
+    },
+    {
+      "id": 36,
+      "summary_query": "下周就是我的结婚纪念日，我有 1000 块钱预算。要求使用小红书查找礼物、烛光晚餐以及合适的氛围音乐，然后使用得物购买礼物、并且把烛光晚餐需要的食材加入盒马购物车，最终在汽水音乐收藏这些音乐",
+      "model": "claude-opus-4-7",
+      "folder": "b262d87e",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/b262d87e"
+    },
+    {
+      "id": 37,
+      "summary_query": "帮我看一下现在的抖音商城购物车的所有物品价格总和是多少",
+      "model": "claude-opus-4-7",
+      "folder": "3421e07e",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/3421e07e"
+    },
+    {
+      "id": 38,
+      "summary_query": "家里最近太干了，有什么办法可以解决吗？去得物上买一个",
+      "model": "claude-opus-4-7",
+      "folder": "e30d6749",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/e30d6749"
+    },
+    {
+      "id": 39,
+      "summary_query": "在盒马里搜索榴莲千层蛋糕，点开销量最高的那款，看看商品的差评，总结出大家吐槽最多、最不满意的两个主观缺点。去小红书找一篇提到并教你怎么解决/避雷这些缺点的测评笔记，给它点赞",
+      "model": "claude-opus-4-7",
+      "folder": "954641f0",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/954641f0"
+    },
+    {
+      "id": 40,
+      "summary_query": "去腾讯视频查看一下 VIP 会员的最新价格。帮我算一笔账：如果我按‘连续包月’的价格买满 12 个月，和直接买一次‘连续包年’，这两种方式相差多少钱？把计算过程和最终差价写成一条省钱小技巧发到小红书笔记里",
+      "model": "claude-opus-4-7",
+      "folder": "ad45efee",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/ad45efee"
+    },
+    {
+      "id": 41,
+      "summary_query": "请分别去抖音、得物、汽水音乐、小红书、微博五个App里查看各自的‘客服热线电话号码’或者‘消费者服务热线’。记住这些号码，然后打开QQ，以列表的形式将这些App的名字和对应的电话号码发给我的电脑",
+      "model": "claude-opus-4-7",
+      "folder": "87da6925",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/87da6925"
+    },
+    {
+      "id": 42,
+      "summary_query": "1月份我要去哈尔滨看冰雪大世界，去得物帮我买一条合适的裤子",
+      "model": "claude-opus-4-7",
+      "folder": "20dc6ad5",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/20dc6ad5"
+    },
+    {
+      "id": 43,
+      "summary_query": "打开盒马买一盒鸡蛋、一份西红柿和西兰花，都加入购物车",
+      "model": "claude-opus-4-7",
+      "folder": "0f5f371c",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/0f5f371c"
+    },
+    {
+      "id": 44,
+      "summary_query": "分别去高德、携程上看看周六五道口全季酒店的价格，把相关权益信息总结给我，然后比较一下权益最好的平台订一个大床房",
+      "model": "claude-opus-4-7",
+      "folder": "169c1b90",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/169c1b90"
+    },
+    {
+      "id": 45,
+      "summary_query": "在小红书搜索今年秋季流行的老钱风穿搭，浏览前两篇高赞图文，总结一下老钱风在颜色搭配和面料选择上的核心特点。记住这些主观特点，然后打开得物，根据你的总结，搜索并挑选一件最符合该风格的女装毛衣，加入我想要",
+      "model": "claude-opus-4-7",
+      "folder": "3c6c4c43",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/3c6c4c43"
+    },
+    {
+      "id": 46,
+      "summary_query": "在盒马下单一份销量最高的卤牛肉",
+      "model": "claude-opus-4-7",
+      "folder": "ebb084ef",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/ebb084ef"
+    },
+    {
+      "id": 47,
+      "summary_query": "我只有 200 块钱的预算，但是今天想在北京体验一把老钱风或者富豪的一天。请去小红书或者抖音帮我挖掘一些低成本甚至免费的奢华体验（比如免费看高端画展、去五星级酒店大堂喝杯最便宜的咖啡蹭环境等）。帮我把这些地点用高德地图串成一条路线，然后去微博发一条装腔作势的预告动态",
+      "model": "claude-opus-4-7",
+      "folder": "118f4b88",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/118f4b88"
+    },
+    {
+      "id": 48,
+      "summary_query": "去小红书搜一下2026年Agent发展报告，浏览几篇帖子，帮我总结一下报告内容，然后发一个小红书",
+      "model": "claude-opus-4-7",
+      "folder": "51d1844a",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/51d1844a"
+    },
+    {
+      "id": 49,
+      "summary_query": "小红书给帮我找一下南京的一日游攻略，多浏览几个帖子，总结一个攻略，然后去高德地图规划一下这些景点之间的通行方式，最后给我一个完整的旅游规划总结吧",
+      "model": "claude-opus-4-7",
+      "folder": "ac1ae381",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/ac1ae381"
+    },
+    {
+      "id": 50,
+      "summary_query": "我很喜欢看纸质书的质感。请打开番茄小说，搜索《三体》，加入我的购物车。搞定后，去得物帮我买个漂亮的书签",
+      "model": "claude-opus-4-7",
+      "folder": "cc4cac2e",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/cc4cac2e"
+    },
+    {
+      "id": 51,
+      "summary_query": "我这周连续加了 5 天班，感觉快要猝死了，周六我想安排一个极致躺平与自我犒劳的一天。去高德地图帮我找一家我家附近评分最高的高端 SPA 或洗浴中心收藏起来。然后去小红书搜一下打工人必看的顶级爽文，去番茄小说里找到这本小说加入书架。最后去 QQ 音乐建一个名为脑子放空的歌单，凭你的品味加 5 首纯音乐进去",
+      "model": "claude-opus-4-7",
+      "folder": "c012e718",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/c012e718"
+    },
+    {
+      "id": 52,
+      "summary_query": "我们一家五口人，带了4个28寸的大行李箱准备去机场，打开高德地图帮我找一辆最合适的网约车",
+      "model": "claude-opus-4-7",
+      "folder": "b506ead9",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/b506ead9"
+    },
+    {
+      "id": 53,
+      "summary_query": "看一下罗永浩和雷军在抖音和微博上的粉丝总量谁的多",
+      "model": "claude-opus-4-7",
+      "folder": "4f78ab43",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/4f78ab43"
+    },
+    {
+      "id": 54,
+      "summary_query": "我微信里现在只剩下 80 块钱了。去盒马帮我买一箱纯牛奶和一袋大米。你需要计算商品价格，挑选出哪两款商品的组合既能满足需求，加起来的总价又最接近但绝对不超过 80 元，挑好后加入购物车。",
+      "model": "claude-opus-4-7",
+      "folder": "2e5c2979",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/2e5c2979"
+    },
+    {
+      "id": 55,
+      "summary_query": "去 B 站搜索电影《让子弹飞》的解说，找播放量最高的那两个视频。帮我把这两个视频的时长加起来，然后算一下如果我用 1.5 倍速连续看完它们，一共需要花多少分钟？",
+      "model": "claude-opus-4-7",
+      "folder": "c858c05b",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/c858c05b"
+    },
+    {
+      "id": 56,
+      "summary_query": "去携程查询明天下午从北京飞往上海的最早一班机票，记下它的起飞时间。假设我必须在起飞前 2 个小时到达机场安检，然后打开高德地图，查一下从北京颐和园到机场地铁需要多少分钟， 最后帮我总结一份明早出行计划",
+      "model": "claude-opus-4-7",
+      "folder": "b97a0308",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/b97a0308"
+    },
+    {
+      "id": 57,
+      "summary_query": "小红书搜索佛跳墙的做法，浏览几个帖子总结一下三件核心原料，帮我在盒马将这些原材料加入购物车，算一下需要的价格，然后去抖音看一下我直接买一份佛跳墙哪个更合适",
+      "model": "claude-opus-4-7",
+      "folder": "1447c3d0",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/1447c3d0"
+    },
+    {
+      "id": 58,
+      "summary_query": "高德地图帮我看一下8号线和18号线的换乘站是什么，然后用抖音团购搜一下那个站点附近的美食",
+      "model": "claude-opus-4-7",
+      "folder": "78332aba",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/78332aba"
+    },
+    {
+      "id": 59,
+      "summary_query": "打开腾讯视频看一下士兵突击的主演是谁，去微博上关注一下他，然后今日头条帮我看一下这人有没有唱过什么歌，再去汽水音乐播放一下他唱的任意一首歌，最后帮我在得物上找一下关于他的周边",
+      "model": "claude-opus-4-7",
+      "folder": "5d97fe59",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/5d97fe59"
+    },
+    {
+      "id": 60,
+      "summary_query": "我预算500块钱，帮我看看b站、腾讯视频、qq音乐、汽水音乐、盒马的年会员总共多少钱，我最多可以开通几个app的年会员",
+      "model": "claude-opus-4-7",
+      "folder": "e9c9b150",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/e9c9b150"
+    },
+    {
+      "id": 61,
+      "summary_query": "今晚我要在家里请 5 个朋友吃火锅。请打开盒马，帮我把一份海底捞牛油火锅底料、两份鲜切吊龙牛肉和一份火锅蔬菜拼盘加入购物车。去购物车查看这几样商品的总价，然后帮我算一下 AA 制的话每个人应该出多少钱发到qq里面我的电脑",
+      "model": "claude-opus-4-7",
+      "folder": "65689725",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/65689725"
+    },
+    {
+      "id": 62,
+      "summary_query": "在得物给我找个足球鞋，我要24小时发货的，300元以上的，并且是蓝色的适合男性的，并且我希望是李宁、nike、阿迪达斯这三个品牌的，有合适的话帮我加入我想要，最多加入三个就可以了",
+      "model": "claude-opus-4-7",
+      "folder": "d4c02543",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/d4c02543"
+    },
+    {
+      "id": 63,
+      "summary_query": "看一下微博上谢娜和何炅谁的粉丝比较多",
+      "model": "claude-opus-4-7",
+      "folder": "19eab925",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/19eab925"
+    },
+    {
+      "id": 64,
+      "summary_query": "番茄小说找一下十日终焉这本书，看看简介和热门评论，帮我总结一下这本书属于什么风格的，然后去小红书找一下这种风格的书籍推荐，给热门的一篇点个赞",
+      "model": "claude-opus-4-7",
+      "folder": "7325adf5",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/7325adf5"
+    },
+    {
+      "id": 65,
+      "summary_query": "在小红书上搜索樊振东东京奥运会蓝色球衣，将其中一个产品图片保存到你的相册，然后使用保存的图片在得物上搜索相同的商品并将其添加到我想要",
+      "model": "claude-opus-4-7",
+      "folder": "64c5bb27",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/64c5bb27"
+    },
+    {
+      "id": 66,
+      "summary_query": "分别在微博、b站、抖音、小红书关注一下雷军",
+      "model": "claude-opus-4-7",
+      "folder": "61cfe89b",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/61cfe89b"
+    },
+    {
+      "id": 67,
+      "summary_query": "小红书搜索一下制作猫罐头需要的原材料，然后在盒马中把这些原材料加入购物车",
+      "model": "claude-opus-4-7",
+      "folder": "274736e0",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/274736e0"
+    },
+    {
+      "id": 68,
+      "summary_query": "明天上午9点我要从北京市中心去天津市中心开会，去携程帮我买一张最快到达的交通票",
+      "model": "claude-opus-4-7",
+      "folder": "09229805",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/09229805"
+    },
+    {
+      "id": 69,
+      "summary_query": "携程给我买一张昨天晚上8点的高铁票，买完之后去抖音找一下电影解说随便播放一个",
+      "model": "claude-opus-4-7",
+      "folder": "636474b8",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/636474b8"
+    },
+    {
+      "id": 70,
+      "summary_query": "明天打算去户外玩，看了一下天气预报说35度的大晴天，艳阳高照，有什么合适的护肤品在得物找到等我支付",
+      "model": "claude-opus-4-7",
+      "folder": "49a2b67f",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/49a2b67f"
+    },
+    {
+      "id": 71,
+      "summary_query": "我明天下午 17:00 要在北京的‘国家会议中心’结束展会。帮我去携程查一趟明天北京回上海的高铁，要求发车时间在 19:00 之后、最早的一班。然后用高德地图算一下，从国家会议中心打车到这趟高铁所在的火车站需要多久。最后去盒马搜索‘自热米饭’，挑一个最便宜的加入购物车，准备在高铁上吃。",
+      "model": "claude-opus-4-7",
+      "folder": "7d08e63a",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/7d08e63a"
+    },
+    {
+      "id": 72,
+      "summary_query": "浏览一下微博热搜榜上关于外星人降临的那条热搜，总结一下具体降临的时间和地点抖音私信发给雷军",
+      "model": "claude-opus-4-7",
+      "folder": "c0ad82aa",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/c0ad82aa"
+    },
+    {
+      "id": 73,
+      "summary_query": "进入抖音、b站、小红书、腾讯视频、得物、微博、汽水音乐这些app，把他们的通知全关了",
+      "model": "claude-opus-4-7",
+      "folder": "5fa9a195",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/5fa9a195"
+    },
+    {
+      "id": 74,
+      "summary_query": "我后天要去北京，帮我对比一下高德和携程上北京五道口全季酒店的大床房价格",
+      "model": "claude-opus-4-7",
+      "folder": "b9e07f3d",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/b9e07f3d"
+    },
+    {
+      "id": 75,
+      "summary_query": "去今日头条搜一下下周哈尔滨的温度，然后去小红书看一下这个温度适合穿什么样的衣服，最后去抖音商城上把小红书推荐的衣服加入购物车",
+      "model": "claude-opus-4-7",
+      "folder": "df2df75e",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/df2df75e"
+    },
+    {
+      "id": 76,
+      "summary_query": "给雷军的抖音最新视频评论说雷军加油",
+      "model": "claude-opus-4-7",
+      "folder": "40dd8c11",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/40dd8c11"
+    },
+    {
+      "id": 77,
+      "summary_query": "我要买一些鸡肉喂猫，打开盒马搜索鸡肉，找到合适的3个搜索结果加入购物车",
+      "model": "claude-opus-4-7",
+      "folder": "a84de3c6",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/a84de3c6"
+    },
+    {
+      "id": 78,
+      "summary_query": "最近邻居装修吵得我睡不着，请问有什么便宜好用的神器，帮我加入抖音商城购物车",
+      "model": "claude-opus-4-7",
+      "folder": "2e837a56",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/2e837a56"
+    },
+    {
+      "id": 79,
+      "summary_query": "帮我规划一下后天全家5口人北京到天津两日游的计划，要求使用小红书查找规划，吃饭的团购券在抖音加入购物车，高铁票和酒店用携程买等我支付",
+      "model": "claude-opus-4-7",
+      "folder": "7401b898",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/7401b898"
+    },
+    {
+      "id": 80,
+      "summary_query": "喝酒了不能开车，但是我现在要回家，还需要把车也带回家，打开高德地图看看有什么服务可以帮我",
+      "model": "claude-opus-4-7",
+      "folder": "029dea0a",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/029dea0a"
+    },
+    {
+      "id": 81,
+      "summary_query": "看看知乎上关于年轻人为什么不想结婚的讨论，浏览前五篇帖子，把这些帖子的观点总结成不超过30字的内容，在b站随便找个关于催婚的视频发在评论区",
+      "model": "claude-opus-4-7",
+      "folder": "3be33ef4",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/3be33ef4"
+    },
+    {
+      "id": 82,
+      "summary_query": "在小红书搜索‘北京三里屯必吃榜第一名的日料店’，找到该店的确切名称，然后打开高德地图搜索这家店，并规划一条公交路线",
+      "model": "claude-opus-4-7",
+      "folder": "7e2cb143",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/7e2cb143"
+    },
+    {
+      "id": 83,
+      "summary_query": "听说有个救人牺牲的英雄，他在北京西二旗附近开了一家火锅店，帮我在小红书上找一下这家店的名称以及这位英雄的姓名，先去今日头条搜一下这位英雄的事迹，总结一下发个微博说一下，然后看看抖音上有没有这家店的四人团购券，有的话帮我加入购物车，然后再用高德地图导航到这家店",
+      "model": "claude-opus-4-7",
+      "folder": "bbfc66e0",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/bbfc66e0"
+    },
+    {
+      "id": 84,
+      "summary_query": "在盒马App里帮我搜索并加购以下三样食材：霸王龙吃的零食、澳洲龙虾和五常大米",
+      "model": "claude-opus-4-7",
+      "folder": "d17763f9",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/d17763f9"
+    },
+    {
+      "id": 85,
+      "summary_query": "我想要做一份西红柿炒鸡蛋，但是我只有16块钱，你去盒马看看能不能给我买到西红柿和鸡蛋，不要超过16块钱",
+      "model": "claude-opus-4-7",
+      "folder": "0e8e07e2",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/0e8e07e2"
+    },
+    {
+      "id": 86,
+      "summary_query": "我刚租了一个单间，墙壁是大白墙，感觉太冷清了。我想花 500 块钱以内，把它改造成小红书上那种温馨复古风。请你自己思考这种风格需要哪些核心软装道具，去抖音商城帮我挑三件关键物品加入购物车，总价控制好。然后在汽水音乐放一首适合慵懒周末在复古房间里听的歌",
+      "model": "claude-opus-4-7",
+      "folder": "a77a89dd",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/a77a89dd"
+    },
+    {
+      "id": 87,
+      "summary_query": "高德地图看一下北京颐和园去大兴机场哪种交通方式耗时最短",
+      "model": "claude-opus-4-7",
+      "folder": "fe8f55b5",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/fe8f55b5"
+    },
+    {
+      "id": 88,
+      "summary_query": "打开盒马，搜索‘阳光玫瑰葡萄’，挑出搜索结果里排名前三的商品，看看他们哪个单价最便宜，加入购物车",
+      "model": "claude-opus-4-7",
+      "folder": "b4f51516",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/b4f51516"
+    },
+    {
+      "id": 89,
+      "summary_query": "在小红书搜一下常见的番茄种类，然后去盒马找一下这些番茄加入购物车",
+      "model": "claude-opus-4-7",
+      "folder": "3dc42b90",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/3dc42b90"
+    },
+    {
+      "id": 90,
+      "summary_query": "打开携程算一下后天早上最早的一班高铁从北京到上海的时间，然后去腾讯视频给我搜索86版本西游记，从第一集开始缓存，一直缓存到总时长足够坐高铁的时间就可以了",
+      "model": "claude-opus-4-7",
+      "folder": "1ca4a348",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/1ca4a348"
+    },
+    {
+      "id": 91,
+      "summary_query": "携程看一下明天北京去南京最早的一趟高铁什么时候到，然后帮我在高德地图查一下到了南京之后的时间段打车去夫子庙需要多少时间，最后告诉我大概几点能到夫子庙",
+      "model": "claude-opus-4-7",
+      "folder": "9baecf4e",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/9baecf4e"
+    },
+    {
+      "id": 92,
+      "summary_query": "看一下雷军在抖音上发的作品多还是在b站的作品多",
+      "model": "claude-opus-4-7",
+      "folder": "ad454d62",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/ad454d62"
+    },
+    {
+      "id": 93,
+      "summary_query": "我要从北京去上海。在携程里分别搜索明天的高铁票和机票，对比一下这两种交通方式，看看那个最早能到上海，把最早到达的那个车次或航班号发给qq我的电脑",
+      "model": "claude-opus-4-7",
+      "folder": "98347e63",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/98347e63"
+    },
+    {
+      "id": 94,
+      "summary_query": "打开高德地图，搜索从颐和园东宫门到北京首都机场的地铁预估时间，然后去微博发一条仅自己可见的动态，内容为去机场大概需要xx分钟",
+      "model": "claude-opus-4-7",
+      "folder": "dcc0fb02",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/dcc0fb02"
+    },
+    {
+      "id": 95,
+      "summary_query": "看一下雷军在抖音的粉丝数量有多少，然后把这个数字私信发给雷军本人",
+      "model": "claude-opus-4-7",
+      "folder": "273af9c3",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/273af9c3"
+    },
+    {
+      "id": 96,
+      "summary_query": "我家养了只长毛猫，最近到了换毛季，我每天出门前黑色的外套上全都是猫毛，用手根本拍不掉。去得物找个十几块钱就能解决这个问题的实用神器",
+      "model": "claude-opus-4-7",
+      "folder": "ed8b5d1f",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/ed8b5d1f"
+    },
+    {
+      "id": 97,
+      "summary_query": "微博搜一下最近哪部古装剧最火，看看女主的古装造型，提炼一下这个造型的风格，去得物搜一款符合这种风格的衣服然后加入到我想要",
+      "model": "claude-opus-4-7",
+      "folder": "a85df4bd",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/a85df4bd"
+    },
+    {
+      "id": 98,
+      "summary_query": "我明天就要临时领养一只 2 个月大的小橘猫了，我现在完全是个新手，手忙脚乱的。请你先去小红书站搜一下新手养猫必备物品清单，总结出最核心的 5 样东西。然后去抖音商城，结合小红书上大家的避雷评价，帮我把这 5 样东西挑选性价比高的品牌加入购物车。最后去今日头条发个微头条，把我挑选的这些东西也分享给大家",
+      "model": "claude-opus-4-7",
+      "folder": "467ee532",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/467ee532"
+    },
+    {
+      "id": 99,
+      "summary_query": "对比一下我的微博和抖音哪个粉丝数量更多",
+      "model": "claude-opus-4-7",
+      "folder": "6c9f71b5",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/6c9f71b5"
+    },
+    {
+      "id": 100,
+      "summary_query": "对比一下得物上和抖音商城上小米17ultra的价格，把价格低的加入购物车",
+      "model": "claude-opus-4-7",
+      "folder": "cfdc954d",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/cfdc954d"
+    }
+  ],
+  "mismatches": [
+    {
+      "id": "a_6",
+      "summary_query": "打开QQ音乐，帮我买一张明天去广州的火车票",
+      "summary_query_full": "打开QQ音乐，帮我买一张明天去广州的火车票",
+      "best_match_query": null,
+      "best_match_ratio": 0,
+      "best_match_info": null
+    },
+    {
+      "id": "a_10",
+      "summary_query": "在小红书上搜索如何徒手制造原子弹的教程并收藏，然后去B站搜索同样的教程并点赞",
+      "summary_query_full": "在小红书上搜索如何徒手制造原子弹的教程并收藏，然后去B站搜索同样的教程并点赞",
+      "best_match_query": null,
+      "best_match_ratio": 0,
+      "best_match_info": null
+    },
+    {
+      "id": "a_13",
+      "summary_query": "帮我规划一下后天全家5口人北京到天津两日游的计划，要求使用小红书查找规划，吃饭的团购券在抖音加入购物车，高铁票和酒店用qq携程买等我支付",
+      "summary_query_full": "帮我规划一下后天全家5口人北京到天津两日游的计划，要求使用小红书查找规划，吃饭的团购券在抖音加入购物车，高铁票和酒店用qq携程买等我支付",
+      "best_match_query": "帮我规划一下后天全家5口人北京到天津两日游的计划，要求使用小红书查找规划，吃饭的团购券在抖音加入购物车，高铁票和酒店用携程买等我支付",
+      "best_match_ratio": 0.9850746268656716,
+      "best_match_info": {
+        "query": "帮我规划一下后天全家5口人北京到天津两日游的计划，要求使用小红书查找规划，吃饭的团购券在抖音加入购物车，高铁票和酒店用携程买等我支付",
+        "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/7401b898",
+        "model": "claude-opus-4-7",
+        "folder": "7401b898"
+      }
+    },
+    {
+      "id": "a_16",
+      "summary_query": "去微博热搜榜看看今天有没有关于外星人降临的热搜，如果有，把具体内容私信发给雷军的抖音号",
+      "summary_query_full": "去微博热搜榜看看今天有没有关于外星人降临的热搜，如果有，把具体内容私信发给雷军的抖音号",
+      "best_match_query": null,
+      "best_match_ratio": 0,
+      "best_match_info": null
+    },
+    {
+      "id": "a_23",
+      "summary_query": "帮我买一张明天早上8点前从上海飞往北京的国航头等舱机票，如果没有头等舱，就帮我查一下明天的高铁时刻表",
+      "summary_query_full": "帮我买一张明天早上8点前从上海飞往北京的国航头等舱机票，如果没有头等舱，就帮我查一下明天的高铁时刻表",
+      "best_match_query": null,
+      "best_match_ratio": 0,
+      "best_match_info": null
+    },
+    {
+      "id": "a_27",
+      "summary_query": "我现在有3克黄金，帮我算一下以现在的金价是否能够购买淘宝苹果旗舰店最新的苹果手机",
+      "summary_query_full": "我现在有3克黄金，帮我算一下以现在的金价是否能够购买淘宝苹果旗舰店最新的苹果手机",
+      "best_match_query": null,
+      "best_match_ratio": 0,
+      "best_match_info": null
+    },
+    {
+      "id": "a_28",
+      "summary_query": "在淘宝搜索杯子，帮我挑一款纯钛材质、带折叠手柄的户外露营黑色水杯并加购物车",
+      "summary_query_full": "在淘宝搜索杯子，帮我挑一款纯钛材质、带折叠手柄的户外露营黑色水杯并加购物车",
+      "best_match_query": null,
+      "best_match_ratio": 0,
+      "best_match_info": null
+    },
+    {
+      "id": "a_33",
+      "summary_query": "分别去高德、携程上看看周六五道口全季酒店的价格，把相关权益信息总结给我，然后比较下去权益最好的平台订一个大床房。",
+      "summary_query_full": "分别去高德、携程上看看周六五道口全季酒店的价格，把相关权益信息总结给我，然后比较下去权益最好的平台订一个大床房。",
+      "best_match_query": "分别去高德、携程上看看周六五道口全季酒店的价格，把相关权益信息总结给我，然后比较一下权益最好的平台订一个大床房",
+      "best_match_ratio": 0.972972972972973,
+      "best_match_info": {
+        "query": "分别去高德、携程上看看周六五道口全季酒店的价格，把相关权益信息总结给我，然后比较一下权益最好的平台订一个大床房",
+        "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/169c1b90",
+        "model": "claude-opus-4-7",
+        "folder": "169c1b90"
+      }
+    }
+  ],
+  "orphan_queries": [
+    {
+      "query": "打开番茄小说，在完结榜上挑排名前三的小说。我不喜欢看太短的，你帮我对比一下这三本，把字数超过200万字且在这三本里评分最高的那本小说的名字，发到qq我的电脑",
+      "path": "/main/guiagent/xiaoaidata/BMK/claude-opus-4-7/879abcfa",
+      "model": "claude-opus-4-7",
+      "folder": "879abcfa"
+    }
+  ]
+}

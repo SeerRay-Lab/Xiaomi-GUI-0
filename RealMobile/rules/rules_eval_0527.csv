@@ -1,0 +1,101 @@
+﻿sid,id,query,gemini-3.1-pro-preview_result,gemini-3.1-pro-preview_score,gemini-3.1-flash-lite-preview_result,gemini-3.1-flash-lite-preview_score,claude-opus-4-6_result,claude-opus-4-6_score,claude-opus-4-7_result,claude-opus-4-7_score,doubao-seed-2-0-pro-260215_result,doubao-seed-2-0-pro-260215_score,doubao-seed-1-8-251228_result,doubao-seed-1-8-251228_score,mai-ui_result,mai-ui_score,autoglm-phone_result,autoglm-phone_score,step-gui_result,step-gui_score,MiGuiAgent-1_result,MiGuiAgent-1_score,MiGuiAgent-2_result,MiGuiAgent-2_score,MiGuiAgent-3_result,MiGuiAgent-3_score
+1,18,打开抖音的自动连播,True,1.0,False,0.5,True,1.0,False,0.5,True,1.0,True,1.0,True,1.0,False,0.5,False,0.5,True,1.0,True,1.0,True,1.0
+2,1,关闭b站后台播放,True,1.0,True,1.0,False,0.0,False,0.0,True,1.0,True,1.0,True,1.0,True,1.0,False,0.0,True,1.0,True,1.0,True,1.0
+3,30,取消腾讯视频自动续费,True,1.0,False,0.5,False,0.25,False,0.5,True,1.0,False,0.5,False,0.5,False,0.0,False,0.5,False,0.5,False,0.5,False,0.5
+4,4,打开qq夜间模式,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0
+5,3,给b站影视飓风最新的视频一键三连,True,1.0,True,1.0,False,0.75,True,1.0,True,1.0,False,0.25,True,1.0,True,1.0,False,0.25,True,1.0,True,1.0,True,1.0
+6,76,给雷军的抖音最新视频评论说雷军加油,True,1.0,True,1.0,False,0.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0
+7,35,打开qq音乐设置30分钟后自动关闭,False,0.75,True,1.0,False,0.75,False,0.75,True,1.0,False,0.75,False,0.75,False,0.75,False,0.75,False,0.75,False,0.75,False,0.75
+8,43,打开盒马买一盒鸡蛋、一份西红柿和西兰花，都加入购物车,True,1.0,False,0.25,False,0.5,False,0.75,True,1.0,True,1.0,False,0.5,True,1.0,False,0.5,True,1.0,True,1.0,True,1.0
+9,66,分别在微博、b站、抖音、小红书关注一下雷军,True,1.0,True,1.0,False,0.0,False,0.0,True,1.0,True,1.0,True,1.0,False,0.0,False,0.0,True,1.0,True,1.0,True,1.0
+10,62,在得物给我找个足球鞋，我要24小时发货的，300元以上的，并且是蓝色的适合男性的，并且我希望是李宁、nike、阿迪达斯这三个品牌的，有合适的话帮我加入我想要，最多加入三个就可以了,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0
+11,46,在盒马下单一份销量最高的卤牛肉,True,1.0,False,0.75,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,0.75,True,1.0,True,1.0,True,1.0
+12,5,给我开通qq音乐年会员,False,0.5,False,0.5,False,0.5,False,0.5,False,0.5,False,0.5,False,0.5,False,0.5,False,0.5,False,0.5,False,0.5,False,0.5
+13,15,把我的微博账号注销,True,1.0,False,0.85,False,0.85,True,1.0,True,1.0,True,1.0,False,0.0,False,0.85,False,0.0,True,1.0,True,1.0,True,1.0
+14,17,抖音商城买一双30块钱以上销量最高的男士拖鞋,True,1.0,True,1.0,False,0.75,True,1.0,True,1.0,False,0.75,False,0.0,True,1.0,True,1.0,True,1.0,False,0.75,True,1.0
+15,24,帮我在携程买一张明天14点左右，北京到天津的高铁票,True,1.0,False,0.75,True,1.0,True,1.0,True,1.0,False,0.75,True,1.0,True,1.0,False,0.75,True,1.0,True,1.0,True,1.0
+16,2,请给b站up主小约翰可汗充2块钱的电,True,1.0,False,0.33,False,0.0,False,0.66,True,1.0,True,1.0,False,0.33,False,0.66,False,0.66,True,1.0,True,1.0,True,1.0
+17,31,浏览腾讯视频高分好评的付费电影，帮我购买排名最前面的动画片,True,1.0,False,0.25,False,0.75,False,0.25,False,0.75,False,0.75,False,0.75,True,1.0,False,0.75,True,1.0,True,1.0,True,1.0
+18,29,帮我在腾讯视频找一个评分为10分的电视剧，播放这个电视剧,False,0.5,False,0.75,False,0.75,False,0.5,False,0.5,False,0.5,False,0.5,False,0.75,False,0.75,True,1.0,True,1.0,False,0.75
+19,32,用高德地图规划一条从北京天安门到美国纽约时代广场的骑行路线,False,0.2,False,0.2,True,1.0,False,0.0,False,0.2,True,1.0,False,0.2,False,0.2,False,0.2,True,1.0,True,1.0,True,1.0
+20,12,我最近想养一只宠物，我比较喜欢python，帮我在小红书搜索一下，找到两篇相关的内容，总结一下喂养指南发个微博,False,0.0,False,0.0,True,1.0,True,1.0,False,0.0,False,0.0,False,0.75,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0
+21,84,在盒马App里帮我搜索并加购以下三样食材：霸王龙吃的零食、澳洲龙虾和五常大米,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0
+22,7,打开QQ音乐，搜索歌曲周杰伦的青花瓷、林俊杰演唱的科目三和陈奕迅的孤勇者，将它们依次加入我的喜欢,True,1.0,True,1.0,False,0.5,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0
+23,69,携程给我买一张昨天晚上8点的高铁票，买完之后去抖音找一下电影解说随便播放一个,False,0.0,False,0.0,False,0.0,False,0.0,False,0.0,False,0.0,False,0.0,False,0.0,False,0.0,True,1.0,True,1.0,True,1.0
+24,50,我很喜欢看纸质书的质感。请打开番茄小说，搜索《三体》，加入我的购物车。搞定后，去得物帮我买个漂亮的书签,False,0.4,False,0.4,False,0.4,False,0.4,True,1.0,True,1.0,False,0.4,True,1.0,False,0.4,True,1.0,True,1.0,True,1.0
+25,72,浏览一下微博热搜榜上关于外星人降临的那条热搜，总结一下具体降临的时间和地点抖音私信发给雷军,False,0.667,False,0.667,False,0.667,False,0.667,False,0.667,False,0.667,False,0.667,False,0.667,False,0.667,False,0.667,False,0.667,False,0.667
+26,6,对比一下得物、抖音商城以及橘子app上苹果17的价格，最后总结一下三个平台的价格对比,False,0.66,False,0.67,True,1.0,False,0.66,False,0.66,False,0.66,False,0.33,True,1.0,False,0.33,False,0.66,False,0.66,False,0.66
+27,19,查看雷军在抖音、b站和微博一共有多少粉丝，然后私信发送给雷军的抖音账号,True,1.0,False,0.75,False,0.75,True,1.0,True,1.0,True,1.0,False,0.75,False,0.75,True,1.0,False,0.75,True,1.0,False,0.75
+28,22,查看抖音的音乐榜单的前三首歌，用汽水音乐收藏这些歌曲,False,0.25,False,0.25,True,1.0,False,0.25,False,0.25,True,1.0,False,0.0,False,0.0,False,0.0,True,1.0,False,0.0,True,1.0
+29,8,去QQ音乐搜林俊杰的热门歌单，播放第一首，然后去B站播放这首歌的演唱会现场版视频,False,0.5,False,0.25,False,0.25,False,0.5,False,0.75,True,1.0,False,0.25,False,0.75,False,0.0,False,0.75,False,0.75,False,0.5
+30,11,小红书搜索“适合雨天听的歌单”，找到3首歌，去QQ音乐里把它们都加到我的“我喜欢”列表里,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,0.25,True,1.0,False,0.25,True,1.0,True,1.0,True,1.0
+31,82,在小红书搜索‘北京三里屯必吃榜第一名的日料店’，找到该店的确切名称，然后打开高德地图搜索这家店，并规划一条公交路线,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,0.0,True,1.0,True,1.0,True,1.0
+32,67,小红书搜索一下制作猫罐头需要的原材料，然后在盒马中把这些原材料加入购物车,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,0.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0
+33,21,抖音搜一下小米有哪些女高管，然后去微博关注一下她们,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,0.0,False,0.75,False,0.0,True,1.0,True,1.0,True,1.0
+34,25,看一下携程明天早上北京到上海最早的航班，把航班号和起飞时间发送到QQ我的电脑,True,1.0,False,0.8,True,1.0,True,1.0,True,1.0,True,1.0,False,0.0,True,1.0,False,0.8,True,1.0,True,1.0,True,1.0
+35,94,打开高德地图，搜索从颐和园东宫门到北京首都机场的地铁预估时间，然后去微博发一条仅自己可见的动态，内容为去机场大概需要xx分钟,True,1.0,True,1.0,False,0.0,False,0.8,True,1.0,True,1.0,False,0.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0
+36,41,请分别去抖音、得物、汽水音乐、小红书、微博五个App里查看各自的‘客服热线电话号码’或者‘消费者服务热线’。记住这些号码，然后打开QQ，以列表的形式将这些App的名字和对应的电话号码发给我的电脑,True,1.0,True,1.0,False,0.0,False,0.0,True,1.0,True,1.0,False,0.0,True,1.0,False,0.0,True,1.0,True,1.0,True,1.0
+37,95,看一下雷军在抖音的粉丝数量有多少，然后把这个数字私信发给雷军本人,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0
+38,89,在小红书搜一下常见的番茄种类，然后去盒马找一下这些番茄加入购物车,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,0.0,True,1.0,True,1.0,True,1.0
+39,33,微博搜索一下凡人修仙传的主题曲，用汽水音乐收藏并且播放,True,1.0,True,1.0,False,0.0,True,1.0,True,1.0,False,0.6,True,1.0,True,1.0,False,0.0,False,0.6,False,0.6,False,0.6
+40,16,看一下微博雷军最近宣发的产品，帮我在抖音上搜一下这个产品热度最高的内容，看看评论区的五条评价，然后发个微博说一下用户对产品的看法,True,1.0,False,0.0,True,1.0,False,0.0,True,1.0,True,1.0,True,1.0,False,0.0,False,0.0,True,1.0,True,1.0,True,1.0
+41,65,在小红书上搜索樊振东东京奥运会蓝色球衣，将其中一个产品图片保存到你的相册，然后使用保存的图片在得物上搜索相同的商品并将其添加到我想要,True,1.0,True,1.0,True,1.0,False,0.0,True,1.0,True,1.0,False,0.0,False,0.0,False,0.0,True,1.0,True,1.0,True,1.0
+42,58,高德地图帮我看一下8号线和18号线的换乘站是什么，然后用抖音团购搜一下那个站点附近的美食,True,1.0,False,0.0,False,0.0,True,1.0,True,1.0,True,1.0,True,1.0,False,0.0,True,1.0,True,1.0,True,1.0,True,1.0
+43,45,在小红书搜索今年秋季流行的老钱风穿搭，浏览前两篇高赞图文，总结一下老钱风在颜色搭配和面料选择上的核心特点。记住这些主观特点，然后打开得物，根据你的总结，搜索并挑选一件最符合该风格的女装毛衣，加入我想要,True,1.0,False,0.834,True,1.0,True,1.0,True,1.0,False,0.0,False,0.0,False,0.834,False,0.0,True,1.0,True,1.0,True,1.0
+44,48,去小红书搜一下2026年Agent发展报告，浏览几篇帖子，帮我总结一下报告内容，然后发一个小红书,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,0.75,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0
+45,64,番茄小说找一下十日终焉这本书，看看简介和热门评论，帮我总结一下这本书属于什么风格的，然后去小红书找一下这种风格的书籍推荐，给热门的一篇点个赞,True,1.0,False,0.0,False,0.0,False,0.0,True,1.0,True,1.0,False,0.2,False,0.0,False,0.0,False,0.2,True,1.0,False,0.2
+46,81,看看知乎上关于年轻人为什么不想结婚的讨论，浏览前五篇帖子，把这些帖子的观点总结成不超过30字的内容，在b站随便找个关于催婚的视频发在评论区,True,1.0,False,0.0,True,1.0,True,1.0,True,1.0,True,1.0,False,0.0,False,0.0,False,0.0,True,1.0,True,1.0,True,1.0
+47,97,微博搜一下最近哪部古装剧最火，看看女主的古装造型，提炼一下这个造型的风格，去得物搜一款符合这种风格的衣服然后加入到我想要,True,1.0,True,1.0,True,1.0,False,0.0,True,1.0,False,0.8,False,0.0,True,1.0,False,0.0,True,1.0,True,1.0,True,1.0
+48,39,在盒马里搜索榴莲千层蛋糕，点开销量最高的那款，看看商品的差评，总结出大家吐槽最多、最不满意的两个主观缺点。去小红书找一篇提到并教你怎么解决/避雷这些缺点的测评笔记，给它点赞,True,1.0,False,0.834,True,1.0,False,0.834,True,1.0,True,1.0,False,0.0,False,0.0,False,0.0,True,1.0,True,1.0,True,1.0
+49,27,我想调研一下微博和今日头条用户的评价特点，去微博热搜榜看看排名前三的社会新闻，浏览几条网友评论，总结一下网友的主要态度（是愤怒、同情还是吃瓜）。带着这个结论去今日头条搜一下这些事件，看看评论区的基调是否和微博有温差。最后在小红书发一个仅自己可见的帖子，写一段两者的态度对比,True,1.0,False,0.8,False,0.0,False,0.0,True,1.0,False,0.8,False,0.0,False,0.8,False,0.0,True,1.0,True,1.0,True,1.0
+50,77,我要买一些鸡肉喂猫，打开盒马搜索鸡肉，找到合适的3个搜索结果加入购物车,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,0.0,True,1.0,True,1.0,True,1.0
+51,52,我们一家五口人，带了4个28寸的大行李箱准备去机场，打开高德地图帮我找一辆最合适的网约车,True,1.0,True,1.0,False,0.5,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0
+52,68,明天上午9点我要从北京市中心去天津市中心开会，去携程帮我买一张最快到达的交通票,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0
+53,42,1月份我要去哈尔滨看冰雪大世界，去得物帮我买一条合适的裤子,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0
+54,38,家里最近太干了，有什么办法可以解决吗？去得物上买一个,True,1.0,True,1.0,False,0.75,True,1.0,True,1.0,False,0.75,True,1.0,False,0.75,True,1.0,False,0.75,False,0.75,False,0.75
+55,96,我家养了只长毛猫，最近到了换毛季，我每天出门前黑色的外套上全都是猫毛，用手根本拍不掉。去得物找个十几块钱就能解决这个问题的实用神器,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0
+56,70,明天打算去户外玩，看了一下天气预报说35度的大晴天，艳阳高照，有什么合适的护肤品在得物找到等我支付,False,0.0,False,0.0,True,1.0,True,1.0,False,0.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0
+57,80,喝酒了不能开车，但是我现在要回家，还需要把车也带回家，打开高德地图看看有什么服务可以帮我,False,0.667,True,1.0,False,0.667,False,0.667,False,0.667,True,1.0,True,1.0,False,0.667,True,1.0,True,1.0,False,0.667,True,1.0
+58,78,最近邻居装修吵得我睡不着，请问有什么便宜好用的神器，帮我加入抖音商城购物车,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0
+59,10,今晚要请几个回族的朋友来家里吃饭，去盒马帮我挑三种不同类型的肉，加入购物车,True,1.0,False,0.33,False,0.67,True,1.0,False,0.67,True,1.0,False,0.67,False,0.67,False,0.67,True,1.0,True,1.0,True,1.0
+60,56,去携程查询明天下午从北京飞往上海的最早一班机票，记下它的起飞时间。假设我必须在起飞前 2 个小时到达机场安检，然后打开高德地图，查一下从北京颐和园到机场地铁需要多少分钟， 最后帮我总结一份明早出行计划,True,1.0,True,1.0,False,0.0,True,1.0,True,1.0,True,1.0,False,0.0,False,0.0,False,0.0,True,1.0,True,1.0,True,1.0
+61,55,去 B 站搜索电影《让子弹飞》的解说，找播放量最高的那两个视频。帮我把这两个视频的时长加起来，然后算一下如果我用 1.5 倍速连续看完它们，一共需要花多少分钟？,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0
+62,54,我微信里现在只剩下 80 块钱了。去盒马帮我买一箱纯牛奶和一袋大米。你需要计算商品价格，挑选出哪两款商品的组合既能满足需求，加起来的总价又最接近但绝对不超过 80 元，挑好后加入购物车。,True,1.0,False,0.8,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,0.0,False,0.0,True,1.0,True,1.0,True,1.0
+63,37,帮我看一下现在的抖音商城购物车的所有物品价格总和是多少,False,0.667,False,0.667,True,1.0,False,0.667,False,0.667,False,0.667,False,0.667,False,0.667,False,0.667,False,0.667,False,0.667,False,0.667
+64,60,我预算500块钱，帮我看看b站、腾讯视频、qq音乐、汽水音乐、盒马的年会员总共多少钱，我最多可以开通几个app的年会员,True,1.0,False,0.0,True,1.0,True,1.0,True,1.0,True,1.0,False,0.0,False,0.0,False,0.0,True,1.0,True,1.0,True,1.0
+65,90,打开携程算一下后天早上最早的一班高铁从北京到上海的时间，然后去腾讯视频给我搜索86版本西游记，从第一集开始缓存，一直缓存到总时长足够坐高铁的时间就可以了,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,0.0,True,1.0,False,0.0,True,1.0,True,1.0,False,0.0
+66,85,我想要做一份西红柿炒鸡蛋，但是我只有16块钱，你去盒马看看能不能给我买到西红柿和鸡蛋，不要超过16块钱,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0
+67,61,今晚我要在家里请 5 个朋友吃火锅。请打开盒马，帮我把一份海底捞牛油火锅底料、两份鲜切吊龙牛肉和一份火锅蔬菜拼盘加入购物车。去购物车查看这几样商品的总价，然后帮我算一下 AA 制的话每个人应该出多少钱发到qq里面我的电脑,True,1.0,True,1.0,False,0.0,True,1.0,False,0.0,True,1.0,False,0.0,False,0.0,False,0.0,True,1.0,True,1.0,True,1.0
+68,34,我现在有3克黄金，去今日头条查一下黄金价格，然后帮我算一下以现在的金价是否能够购买抖音苹果旗舰店最新的苹果手机,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,0.0,True,1.0,False,0.0,False,0.0,True,1.0,False,0.5
+69,13,我有3个小时的空闲，帮我算一下我最多能看b站热门视频前几个,False,0.0,False,0.5,False,0.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0
+70,26,帮我对比一下汽水音乐和qq音乐的会员价格,True,1.0,True,1.0,False,0.0,False,0.0,True,1.0,True,1.0,True,1.0,True,1.0,False,0.0,True,1.0,True,1.0,True,1.0
+71,88,打开盒马，搜索‘阳光玫瑰葡萄’，挑出搜索结果里排名前三的商品，看看他们哪个单价最便宜，加入购物车,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0
+72,100,对比一下得物上和抖音商城上小米17ultra的价格，把价格低的加入购物车,False,0.0,False,0.75,True,1.0,False,0.0,False,0.0,True,1.0,True,1.0,False,0.0,False,0.0,True,1.0,True,1.0,True,1.0
+73,87,高德地图看一下北京颐和园去大兴机场哪种交通方式耗时最短,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0
+74,93,我要从北京去上海。在携程里分别搜索明天的高铁票和机票，对比一下这两种交通方式，看看那个最早能到上海，把最早到达的那个车次或航班号发给qq我的电脑,True,1.0,True,1.0,False,0.167,False,0.0,False,0.0,True,1.0,False,0.833,False,0.833,False,0.833,True,1.0,True,1.0,True,1.0
+75,23,打开番茄小说，在完结榜上挑排名前三的小说。我不喜欢看太短的，你帮我对比一下这三本，把字数超过 200万字且在这三本里评分最高的那本小说的名字，发到qq我的电脑,False,0.0,True,1.0,False,0.0,False,0.5,False,0.25,False,0.0,False,0.5,False,0.5,False,0.5,True,1.0,True,1.0,True,1.0
+76,40,去腾讯视频查看一下 VIP 会员的最新价格。帮我算一笔账：如果我按‘连续包月’的价格买满 12 个月，和直接买一次‘连续包年’，这两种方式相差多少钱？把计算过程和最终差价写成一条省钱小技巧发到小红书笔记里,True,1.0,False,0.0,False,0.8,True,1.0,True,1.0,True,1.0,False,0.0,True,1.0,False,0.0,True,1.0,True,1.0,True,1.0
+77,53,看一下罗永浩和雷军在抖音和微博上的粉丝总量谁的多,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,0.0,True,1.0,True,1.0,True,1.0
+78,74,我后天要去北京，帮我对比一下高德和携程上北京五道口全季酒店的大床房价格,True,1.0,False,0.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,0.0,False,0.0,True,1.0,True,1.0,True,1.0
+79,63,看一下微博上谢娜和何炅谁的粉丝比较多,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0
+80,92,看一下雷军在抖音上发的作品多还是在b站的作品多,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,0.0,True,1.0,True,1.0,True,1.0
+81,99,对比一下我的微博和抖音哪个粉丝数量更多,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,0.0,True,1.0,True,1.0,True,1.0
+82,73,进入抖音、b站、小红书、腾讯视频、得物、微博、汽水音乐这些app，把他们的通知全关了,False,0.167,False,0.0,False,0.167,False,0.333,False,0.5,False,0.667,False,0.167,False,0.167,False,0.167,False,0.667,False,0.667,False,0.667
+83,28,分别给抖音、微博、b站、小红书上雷军最新发布的内容点赞,True,1.0,True,1.0,False,0.0,True,1.0,False,0.0,True,1.0,False,0.0,False,0.0,False,0.0,False,0.25,True,1.0,True,1.0
+84,14,小红书搜索一下北京的黑珍珠餐厅推荐，找三家川菜相关的，然后高德地图收藏距离颐和园最近的那一家,True,1.0,False,0.0,False,0.5,True,1.0,True,1.0,False,0.75,False,0.5,True,1.0,False,0.25,False,0.75,True,1.0,True,1.0
+85,9,我要上小红书发一篇帖子，内容是关于广州的3天旅游感受，你帮我上小红书看一看别人的帖子，挑5个点赞量最高的总结一下。要求文案自然流畅，配图在帖子里找两张，然后直接给我发出去就行,True,1.0,False,0.6,False,0.6,False,0.6,True,1.0,True,1.0,False,0.6,False,0.8,False,0.6,True,1.0,True,1.0,True,1.0
+86,44,分别去高德、携程上看看周六五道口全季酒店的价格，把相关权益信息总结给我，然后比较一下权益最好的平台订一个大床房,True,1.0,True,1.0,False,0.834,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,0.834,True,1.0,True,1.0,True,1.0
+87,49,小红书给帮我找一下南京的一日游攻略，多浏览几个帖子，总结一个攻略，然后去高德地图规划一下这些景点之间的通行方式，最后给我一个完整的旅游规划总结吧,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,0.0,True,1.0,False,0.0,True,1.0,True,1.0,True,1.0
+88,91,携程看一下明天北京去南京最早的一趟高铁什么时候到，然后帮我在高德地图查一下到了南京之后的时间段打车去夫子庙需要多少时间，最后告诉我大概几点能到夫子庙,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,0.0,True,1.0,True,1.0,True,1.0
+89,57,小红书搜索佛跳墙的做法，浏览几个帖子总结一下三件核心原料，帮我在盒马将这些原材料加入购物车，算一下需要的价格，然后去抖音看一下我直接买一份佛跳墙哪个更合适,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,0.0,False,0.0,False,0.0,True,1.0,True,1.0,True,1.0
+90,59,打开腾讯视频看一下士兵突击的主演是谁，去微博上关注一下他，然后今日头条帮我看一下这人有没有唱过什么歌，再去汽水音乐播放一下他唱的任意一首歌，最后帮我在得物上找一下关于他的周边,True,1.0,False,0.0,False,0.0,False,0.0,True,1.0,False,0.0,False,0.0,False,0.0,False,0.0,True,1.0,True,1.0,True,1.0
+91,75,去今日头条搜一下下周哈尔滨的温度，然后去小红书看一下这个温度适合穿什么样的衣服，最后去抖音商城上把小红书推荐的衣服加入购物车,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,0.0,True,1.0,False,0.0,True,1.0,True,1.0,True,1.0
+92,71,我明天下午 17:00 要在北京的‘国家会议中心’结束展会。帮我去携程查一趟明天北京回上海的高铁，要求发车时间在 19:00 之后、最早的一班。然后用高德地图算一下，从国家会议中心打车到这趟高铁所在的火车站需要多久。最后去盒马搜索‘自热米饭’，挑一个最便宜的加入购物车，准备在高铁上吃。,True,1.0,False,0.0,False,0.0,False,0.0,True,1.0,True,1.0,False,0.0,False,0.0,False,0.0,True,1.0,True,1.0,True,1.0
+93,83,听说有个救人牺牲的英雄，他在北京西二旗附近开了一家火锅店，帮我在小红书上找一下这家店的名称以及这位英雄的姓名，先去今日头条搜一下这位英雄的事迹，总结一下发个微博说一下，然后看看抖音上有没有这家店的四人团购券，有的话帮我加入购物车，然后再用高德地图导航到这家店,False,0.667,False,0.0,False,0.0,False,0.667,False,0.667,False,0.667,False,0.0,False,0.0,False,0.0,False,0.667,False,0.667,False,0.667
+94,51,我这周连续加了 5 天班，感觉快要猝死了，周六我想安排一个极致躺平与自我犒劳的一天。去高德地图帮我找一家我家附近评分最高的高端 SPA 或洗浴中心收藏起来。然后去小红书搜一下打工人必看的顶级爽文，去番茄小说里找到这本小说加入书架。最后去 QQ 音乐建一个名为脑子放空的歌单，凭你的品味加 5 首纯音乐进去,True,1.0,False,0.0,False,0.0,False,0.0,True,1.0,False,0.0,False,0.0,True,1.0,False,0.0,True,1.0,True,1.0,True,1.0
+95,98,我明天就要临时领养一只 2 个月大的小橘猫了，我现在完全是个新手，手忙脚乱的。请你先去小红书站搜一下新手养猫必备物品清单，总结出最核心的 5 样东西。然后去抖音商城，结合小红书上大家的避雷评价，帮我把这 5 样东西挑选性价比高的品牌加入购物车。最后去今日头条发个微头条，把我挑选的这些东西也分享给大家,True,1.0,False,0.0,False,0.0,True,1.0,True,1.0,True,1.0,False,0.0,False,0.0,False,0.0,True,1.0,True,1.0,True,1.0
+96,36,下周就是我的结婚纪念日，我有 1000 块钱预算。要求使用小红书查找礼物、烛光晚餐以及合适的氛围音乐，然后使用得物购买礼物、并且把烛光晚餐需要的食材加入盒马购物车，最终在汽水音乐收藏这些音乐,True,1.0,False,0.667,False,0.5,False,0.667,True,1.0,True,1.0,False,0.667,False,0.5,False,0.0,True,1.0,True,1.0,True,1.0
+97,79,帮我规划一下后天全家5口人北京到天津两日游的计划，要求使用小红书查找规划，吃饭的团购券在抖音加入购物车，高铁票和酒店用携程买等我支付,False,0.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,0.0,False,0.0,False,0.0,True,1.0,True,1.0,False,0.0
+98,20,请通过抖音、小红书、微博这些app帮我规划一个本周日晚上吃饭+看电影的约会,False,0.0,False,0.0,True,1.0,True,1.0,True,1.0,True,1.0,False,0.66,True,1.0,False,0.0,True,1.0,False,0.0,True,1.0
+99,47,我只有 200 块钱的预算，但是今天想在北京体验一把老钱风或者富豪的一天。请去小红书或者抖音帮我挖掘一些低成本甚至免费的奢华体验（比如免费看高端画展、去五星级酒店大堂喝杯最便宜的咖啡蹭环境等）。帮我把这些地点用高德地图串成一条路线，然后去微博发一条装腔作势的预告动态,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,True,1.0,False,0.0,False,0.0,False,0.0,True,1.0,True,1.0,True,1.0
+100,86,我刚租了一个单间，墙壁是大白墙，感觉太冷清了。我想花 500 块钱以内，把它改造成小红书上那种温馨复古风。请你自己思考这种风格需要哪些核心软装道具，去抖音商城帮我挑三件关键物品加入购物车，总价控制好。然后在汽水音乐放一首适合慵懒周末在复古房间里听的歌,True,1.0,False,0.0,False,0.0,False,0.5,True,1.0,False,0.5,False,0.25,True,1.0,False,0.0,False,0.0,False,0.0,False,0.5
