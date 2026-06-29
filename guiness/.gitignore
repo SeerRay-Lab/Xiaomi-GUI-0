@@ -11,7 +11,11 @@ __pycache__/
 build/
 dist/
 # build.sh 下载的 Android platform-tools（每次打包按目标 OS 拉取，不入库）
-vendor/
+vendor/*
+# 例外：scrcpy-server.jar 入库（实时镜像依赖，版本固定 3.3.4）
+!vendor/scrcpy/
+vendor/scrcpy/*
+!vendor/scrcpy/scrcpy-server.jar
 
 # 数据（仅忽略仓库根下的运行产物目录，不影响 apps/data/ 之类的源数据）
 /data/
