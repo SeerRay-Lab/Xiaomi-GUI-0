@@ -26,14 +26,12 @@
 
 ## ✨ What Is Xiaomi-GUI-0?
 
-GUI agents complete user tasks end-to-end in real applications through interface-level actions — tapping, swiping, text entry, and page navigation. Yet existing mobile agents are trained and measured largely on **offline trajectories, simulated environments, and static benchmarks**, which differ sharply from real apps in layout, interaction logic, and the distribution of abnormal states.
+High benchmark scores do not reliably predict performance on real devices, where account states, permission dialogs, payment authentication, and risk-control mechanisms continually reshape the state distribution a GUI agent encounters. To close this gap, **Xiaomi-GUI-0** is a native end-to-end multimodal GUI agent for real mobile environments, trained and evaluated within a **real-device closed loop**:
 
-On real devices, factors such as account states, permission dialogs, payment authentication, and risk-control mechanisms continually reshape the state distribution encountered during execution — opening a persistent gap between high benchmark scores and real-world usability. To close this gap, **Xiaomi-GUI-0** is a native end-to-end multimodal GUI agent for real mobile environments, trained and evaluated within a **real-device closed loop**:
-
-- **📱 Real-device-dominant hybrid infrastructure** — hundreds of physical phones and tablets as the primary execution substrate, with sandboxes for scalable, reproducible collection, so data collection, training, rollout, and evaluation share a real deployment distribution.
-- **🔁 Error-driven data flywheel** — failure trajectories from real rollouts are turned into corrected actions, reflective explanations, and recovery demonstrations — direct supervision for abnormal-state recognition and self-recovery.
+- **📱 Real-device-dominant infrastructure** — hundreds of physical phones, tablets, and in-vehicle cockpits, complemented by sandboxes, so data collection, training, rollout, and evaluation share a single real-deployment distribution.
+- **🔁 Error-driven data flywheel** — failure trajectories from real rollouts are converted into corrected actions, reflective rationales, and recovery demonstrations that supervise abnormal-state recognition and self-correction.
 - **🎯 Progressive three-stage training** — SFT → step-level RL → agentic RL incrementally builds basic interface operation, long-horizon planning, and error recovery.
-- **🧪 RealMobile benchmark** — 100 tasks across 14 live apps, scored by fine-grained sub-goals on physical devices, with 57% spanning multiple applications.
+- **🧪 RealMobile benchmark** — 100 real-device tasks across 14 live apps, scored by fine-grained sub-goals, with 57% spanning multiple applications.
 
 ***
 
