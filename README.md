@@ -14,8 +14,6 @@
 
 </div>
 
-***
-
 ## 📰 News
 
 - **2026-06** — 🚀 Released the **Xiaomi-GUI-0** technical report, code, and evaluation suites.
@@ -133,21 +131,19 @@ Rule-based scoring framework for recorded agent trajectories on real Chinese mob
 ### `demo/` — Sample Trajectories
 Example agent episodes from AndroidWorld (`demo/Android-World/<episode_id>/` with `task.json` + per-step screenshots). Data only, no code.
 
-## 📚 Citation
+## 📚 Reference
 
-If you find this work useful, please cite:
+If you find the resources in this repository helpful, please cite as:
 
 ```bibtex
 @techreport{xiaomigui0_2026,
   title        = {Xiaomi-GUI-0 Technical Report},
-  author       = {Mimir Team},
+  author       = {},
   institution  = {Xiaomi},
   year         = {2026},
   url          = {https://github.com/SeerRay-Lab/Xiaomi-GUI-0}
 }
 ```
-
-***
 
 <div align="center">
 <sub>Visit the <a href="https://seerray-lab.github.io/Xiaomi-GUI-0/">project page</a> for demos, full results, and updates.</sub>
