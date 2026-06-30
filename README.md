@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/SeerRay-Lab/Xiaomi-GUI-0/gh-pages/assets/logo/xiaomi_logo.png" width="92" alt="Xiaomi-GUI-0"/>
-
-# Xiaomi-GUI-0
+<img src="assets/banner.png" alt="Xiaomi-GUI-0"/>
 
 ### A Native End-to-End Multimodal GUI Agent for Real Mobile Environments
 
@@ -74,35 +72,6 @@ On real devices, factors such as account states, permission dialogs, payment aut
 | ScreenSpot-V2 | MMBench-GUI-L2 | OSWorld-G | OSWorld-G-Refine |
 |:---:|:---:|:---:|:---:|
 | 94.7% | 82.7% | 58.7% | 64.2% |
-
-***
-
-## 🛠️ Method
-
-### Real-Device-Dominant Hybrid Infrastructure
-
-Physical devices serve as the primary execution environment with sandboxes as auxiliary support, organized into a resource layer, a scheduling layer, and an execution & collection layer. A **Device-Pull** scheduler lets idle devices request tasks matching their current readiness.
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/SeerRay-Lab/Xiaomi-GUI-0/gh-pages/assets/figs/infra.png" width="90%" alt="Hybrid infrastructure"/>
-</div>
-
-### Multi-Source Training Data
-
-Three progressive data tiers span the supervision needed for real mobile scenarios: **high-frequency task data** for head functions, **high-generalization data** for long-tail intents via function trees and behavior buckets, and **agent-capability enhancement data** with a five-field structured chain-of-thought schema.
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/SeerRay-Lab/Xiaomi-GUI-0/gh-pages/assets/figs/data.png" width="90%" alt="High-generalization data pipeline"/>
-  <img src="https://raw.githubusercontent.com/SeerRay-Lab/Xiaomi-GUI-0/gh-pages/assets/figs/query.png" width="90%" alt="Query synthesis pipeline"/>
-</div>
-
-### Error-Driven Data Flywheel
-
-Rather than scaling data volume, the flywheel is organized around the error distribution exposed during real rollouts. A teacher model scores each step; sustained below-threshold scores trigger a bounded takeover that produces a deviation–diagnosis–recovery segment.
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/SeerRay-Lab/Xiaomi-GUI-0/gh-pages/assets/figs/flywheel.png" width="90%" alt="Teacher scoring and takeover"/>
-</div>
 
 ***
 
