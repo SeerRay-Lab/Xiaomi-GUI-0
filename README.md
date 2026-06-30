@@ -37,11 +37,10 @@ High benchmark scores do not reliably predict performance on real devices, where
 
 ## 📊 Main Results
 
-> Success denotes the fraction of fully completed tasks; Progress denotes the mean fraction of completed sub-goals per task.
+> Success: fraction of fully completed tasks; Progress: mean fraction of completed sub-goals per task.
 
 | Model | RealMobile&nbsp;Success | RealMobile&nbsp;Progress | AndroidWorld |
 |---|:---:|:---:|:---:|
-| **Proprietary** | | | |
 | Gemini 3.1 Pro | 85.0% | 89.6% | — |
 | Gemini 3.1 Flash | 58.0% | 72.4% | — |
 | Claude Opus 4.7 | 60.0% | 74.8% | — |
@@ -49,13 +48,11 @@ High benchmark scores do not reliably predict performance on real devices, where
 | Seed 1.8 | 65.0% | 82.4% | 70.7% |
 | UI-TARS-2 | — | — | 73.3% |
 | UI-TARS-1.5 | 24.0% | 40.5% | 64.2% |
-| **Open-source** | | | |
 | UI-Venus-1.5-30B-A3B | 21.0% | 44.6% | 77.6% |
 | GUI-Owl-1.5-32B-Instruct | 22.0% | 40.6% | 69.8% |
 | GUI-Owl-1.5-32B-Thinking | 31.0% | 51.7% | 69.8% |
 | Step-GUI-8B | 15.0% | 32.8% | 67.7% |
 | MAI-UI-8B | 33.0% | 50.8% | 70.7% |
-| **Ours** | | | |
 | **Xiaomi-GUI-0-30B-A3B** | **72.0%** | **85.8%** | **78.9%** |
 
 ***
