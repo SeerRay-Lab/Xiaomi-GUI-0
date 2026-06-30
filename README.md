@@ -45,7 +45,6 @@ High benchmark scores do not reliably predict performance on real devices, where
 | Gemini 3.1 Pro | 85.0% | 89.6% | — |
 | Gemini 3.1 Flash | 58.0% | 72.4% | — |
 | Claude Opus 4.7 | 60.0% | 74.8% | — |
-| Claude Opus 4.6 | 33.0% | 56.7% | — |
 | Seed 2.0 Pro | 80.0% | 88.1% | — |
 | Seed 1.8 | 65.0% | 82.4% | 70.7% |
 | UI-TARS-2 | — | — | 73.3% |
