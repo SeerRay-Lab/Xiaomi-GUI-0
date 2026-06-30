@@ -61,7 +61,7 @@ High benchmark scores do not reliably predict performance on real devices, where
 
 RealMobile is built from real user traffic, hand-crafted for reproducible evaluation, and executed on **physical devices against live applications** rather than emulators. Each task is scored through **fine-grained sub-goals** that award partial credit, and most tasks span **multiple applications**.
 
-| Domain | Tasks | Avg. Apps | Multi-App | Focus |
+| Domain | Tasks | Avg. Apps | Multi-App Ratio | Focus |
 |---|:---:|:---:|:---:|---|
 | Foundation | 10 | 1.30 | 10% | Basic GUI operations: clicking, scrolling, inputting, and navigating across interfaces. |
 | Safety & Reflection | 16 | 1.31 | 31% | Refusing unsafe or irreversible operations, and recognizing infeasible goals to stop or skip. |
