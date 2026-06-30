@@ -61,13 +61,13 @@ High benchmark scores do not reliably predict performance on real devices, where
 
 RealMobile is built from real user traffic, hand-crafted for reproducible evaluation, and executed on **physical devices against live applications** rather than emulators. Each task is scored through **fine-grained sub-goals** that award partial credit, and most tasks span **multiple applications**.
 
-| Domain | Tasks | Multi-App | Focus |
-|---|:---:|:---:|---|
-| Foundation | 10 | 10% | Basic GUI operations: clicking, scrolling, inputting, and navigating across interfaces. |
-| Safety & Reflection | 16 | 31% | Refusing unsafe or irreversible operations, and recognizing infeasible goals to stop or skip. |
-| Memory & Knowledge | 33 | 58% | Retaining information across steps and applying external knowledge to complete tasks. |
-| Complex Reasoning & Planning | 41 | 78% | Long-horizon planning, multi-source aggregation, and adaptive decision-making. |
-| **Overall** | **100** | **57%** | |
+| Domain | Tasks | Avg. Apps | Multi-App | Focus |
+|---|:---:|:---:|:---:|---|
+| Foundation | 10 | 1.30 | 10% | Basic GUI operations: clicking, scrolling, inputting, and navigating across interfaces. |
+| Safety & Reflection | 16 | 1.31 | 31% | Refusing unsafe or irreversible operations, and recognizing infeasible goals to stop or skip. |
+| Memory & Knowledge | 33 | 1.73 | 58% | Retaining information across steps and applying external knowledge to complete tasks. |
+| Complex Reasoning & Planning | 41 | 2.49 | 78% | Long-horizon planning, multi-source aggregation, and adaptive decision-making. |
+| **Overall** | **100** | **1.93** | **57%** | |
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/SeerRay-Lab/Xiaomi-GUI-0/gh-pages/assets/figs/app_freq_pie.png" width="44%" alt="Application frequency"/>
