@@ -35,7 +35,7 @@ High benchmark scores do not reliably predict performance on real devices, where
 
 ***
 
-## 📊 Results Snapshot
+## 📊 Main Results
 
 **Navigation** — task completion on the real-device **RealMobile** benchmark and on **AndroidWorld**. Success = fraction of fully completed tasks; Progress = mean fraction of completed sub-goals. Reported as mean@4 over four runs.
 
@@ -62,8 +62,6 @@ High benchmark scores do not reliably predict performance on real devices, where
 | Step-GUI-8B | 15.0% | 32.8% | 67.7% |
 | **Ours** | | | |
 | **Xiaomi-GUI-0-30B-A3B** | **72.0%** | **85.8%** | **78.9%** |
-
-> **Takeaway.** Xiaomi-GUI-0 substantially outperforms locally deployable open-source models on the real-device benchmark and **achieves the best AndroidWorld result among evaluated models**, while approaching frontier proprietary systems despite their larger scale — evidence that a real-device closed loop narrows the gap between benchmark scores and real-world deployability.
 
 ***
 
