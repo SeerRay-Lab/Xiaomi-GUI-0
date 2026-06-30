@@ -19,7 +19,7 @@
 ## 📰 News
 
 - **2026-06** — 🚀 Released the **Xiaomi-GUI-0** technical report, code, and evaluation suites.
-- **2026-06** — 🧪 Released **RealMobile**, a real-device benchmark across 14 live apps with sub-goal scoring.
+- **2026-06** — 🧪 Released [**RealMobile**](https://huggingface.co/datasets/SeerRay-Lab/RealMobile-BMK), a real-device benchmark across 14 live apps with sub-goal scoring.
 - **2026-06** — 🌐 Launched the [project page](https://seerray-lab.github.io/Xiaomi-GUI-0/) and the [HuggingFace collection](https://huggingface.co/collections/SeerRay-Lab/xiaomi-gui-0).
 
 ***
@@ -73,8 +73,6 @@ RealMobile is built from real user traffic, hand-crafted for reproducible evalua
   <img src="https://raw.githubusercontent.com/SeerRay-Lab/Xiaomi-GUI-0/gh-pages/assets/figs/app_freq_pie.png" width="44%" alt="Application frequency"/>
   <img src="https://raw.githubusercontent.com/SeerRay-Lab/Xiaomi-GUI-0/gh-pages/assets/figs/multiapp_bar.png" width="40%" alt="Applications per task"/>
 </div>
-
-> Trajectory data (~13 GB) is hosted on HuggingFace: [`SeerRay-Lab/RealMobile-BMK`](https://huggingface.co/datasets/SeerRay-Lab/RealMobile-BMK)
 
 ***
 
