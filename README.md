@@ -2,9 +2,9 @@
 
 <img src="assets/banner.png" alt="Xiaomi-GUI-0"/>
 
-### A Native End-to-End Multimodal GUI Agent for Real Mobile Environments
+### An End-to-End Multimodal GUI Agent for Real Mobile Environments
 
-*Training and evaluating a GUI agent inside a **real-device closed loop** — closing the gap between benchmark scores and real-world usability.*
+*Trained and evaluated in a **real-device closed loop** — closing the benchmark-to-reality gap.*
 
 <p>
   <a href="https://seerray-lab.github.io/Xiaomi-GUI-0/"><img src="https://img.shields.io/badge/🌐_Project_Page-Xiaomi--GUI--0-ff6700?style=for-the-badge" alt="Project Page"/></a>
