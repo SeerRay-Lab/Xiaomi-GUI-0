@@ -161,10 +161,6 @@ If you find this work useful, please cite:
 
 ***
 
-## 📄 License
-
-No repository-wide license file. Individual components carry their own terms (`android_world_eval/` is Apache 2.0; `guiness/` is MIT). Check each subdirectory before reuse.
-
 <div align="center">
 <sub>Visit the <a href="https://seerray-lab.github.io/Xiaomi-GUI-0/">project page</a> for demos, full results, and updates.</sub>
 </div>
