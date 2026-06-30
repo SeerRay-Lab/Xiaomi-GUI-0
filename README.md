@@ -22,8 +22,6 @@
 - **2026-06** — 🧪 Released [**RealMobile**](https://huggingface.co/datasets/SeerRay-Lab/RealMobile-BMK), a real-device benchmark across 14 live apps with sub-goal scoring.
 - **2026-06** — 🌐 Launched the [project page](https://seerray-lab.github.io/Xiaomi-GUI-0/) and the [HuggingFace collection](https://huggingface.co/collections/SeerRay-Lab/xiaomi-gui-0).
 
-***
-
 ## ✨ What Is Xiaomi-GUI-0?
 
 High benchmark scores do not reliably predict performance on real devices, where account states, permission dialogs, payment authentication, and risk-control mechanisms continually reshape the state distribution a GUI agent encounters. To close this gap, **Xiaomi-GUI-0** is a native end-to-end multimodal GUI agent for real mobile environments, trained and evaluated within a **real-device closed loop**:
@@ -32,8 +30,6 @@ High benchmark scores do not reliably predict performance on real devices, where
 - **🔁 Error-driven data flywheel**: failure trajectories from real rollouts are converted into corrected actions, reflective rationales, and recovery demonstrations.
 - **🎯 Progressive three-stage training**: SFT → Step RL → Agentic RL incrementally builds basic interface operation, long-horizon planning, and error recovery.
 - **🧪 RealMobile benchmark**: 100 real-device tasks across 14 live apps, scored by fine-grained sub-goals, with 57% spanning multiple applications.
-
-***
 
 ## 📊 Main Results
 
@@ -55,8 +51,6 @@ High benchmark scores do not reliably predict performance on real devices, where
 | MAI-UI-8B | 33.0% | 50.8% | 70.7% |
 | **Xiaomi-GUI-0-30B-A3B** | **72.0%** | **85.8%** | **78.9%** |
 
-***
-
 ## 🧪 The RealMobile Benchmark
 
 RealMobile is built from real user traffic, hand-crafted for reproducible evaluation, and executed on **physical devices against live applications** rather than emulators. Each task is scored through **fine-grained sub-goals** that award partial credit, and most tasks span **multiple applications**.
@@ -73,8 +67,6 @@ RealMobile is built from real user traffic, hand-crafted for reproducible evalua
   <img src="https://raw.githubusercontent.com/SeerRay-Lab/Xiaomi-GUI-0/gh-pages/assets/figs/app_freq_pie.png" width="44%" alt="Application frequency"/>
   <img src="https://raw.githubusercontent.com/SeerRay-Lab/Xiaomi-GUI-0/gh-pages/assets/figs/multiapp_bar.png" width="40%" alt="Applications per task"/>
 </div>
-
-***
 
 ## 🗂️ Repository Layout
 
@@ -104,8 +96,6 @@ RealMobile is built from real user traffic, hand-crafted for reproducible evalua
 - **RealMobile** — recorded real-device trajectories on Chinese apps, scored by handwritten XPath rules.
 - **guiness** — the deployable product that runs the agent on a real phone.
 - **demo** — illustrative trajectories, no code.
-
-***
 
 ## 🧩 Components
 
@@ -142,8 +132,6 @@ Rule-based scoring framework for recorded agent trajectories on real Chinese mob
 
 ### `demo/` — Sample Trajectories
 Example agent episodes from AndroidWorld (`demo/Android-World/<episode_id>/` with `task.json` + per-step screenshots). Data only, no code.
-
-***
 
 ## 📚 Citation
 
