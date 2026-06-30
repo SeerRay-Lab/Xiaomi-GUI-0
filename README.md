@@ -42,7 +42,6 @@ High benchmark scores do not reliably predict performance on real devices, where
 | Model | RealMobile&nbsp;Success | RealMobile&nbsp;Progress | AndroidWorld |
 |---|:---:|:---:|:---:|
 | **Proprietary** | | | |
-| OpenAI CUA (o3) | — | — | 52.5% |
 | Gemini 3.1 Pro | 85.0% | 89.6% | — |
 | Gemini 3.1 Flash | 58.0% | 72.4% | — |
 | Claude Opus 4.7 | 60.0% | 74.8% | — |
@@ -52,7 +51,6 @@ High benchmark scores do not reliably predict performance on real devices, where
 | UI-TARS-2 | — | — | 73.3% |
 | UI-TARS-1.5 | 24.0% | 40.5% | 64.2% |
 | **Open-source** | | | |
-| UI-Venus-1.5-8B | 16.0% | 41.6% | 73.7% |
 | UI-Venus-1.5-30B-A3B | 21.0% | 44.6% | 77.6% |
 | GUI-Owl-1.5-8B-Instruct | 25.0% | 44.0% | 69.0% |
 | GUI-Owl-1.5-8B-Thinking | 26.0% | 39.0% | 71.6% |
