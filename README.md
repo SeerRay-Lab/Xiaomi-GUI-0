@@ -51,8 +51,6 @@ High benchmark scores do not reliably predict performance on real devices, where
 | UI-TARS-1.5 | 24.0% | 40.5% | 64.2% |
 | **Open-source** | | | |
 | UI-Venus-1.5-30B-A3B | 21.0% | 44.6% | 77.6% |
-| GUI-Owl-1.5-8B-Instruct | 25.0% | 44.0% | 69.0% |
-| GUI-Owl-1.5-8B-Thinking | 26.0% | 39.0% | 71.6% |
 | GUI-Owl-1.5-32B-Instruct | 22.0% | 40.6% | 69.8% |
 | GUI-Owl-1.5-32B-Thinking | 31.0% | 51.7% | 69.8% |
 | Step-GUI-8B | 15.0% | 32.8% | 67.7% |
