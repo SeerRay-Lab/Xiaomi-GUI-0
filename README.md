@@ -28,7 +28,7 @@
 
 High benchmark scores do not reliably predict performance on real devices, where account states, permission dialogs, payment authentication, and risk-control mechanisms continually reshape the state distribution a GUI agent encounters. To close this gap, **Xiaomi-GUI-0** is a native end-to-end multimodal GUI agent for real mobile environments, trained and evaluated within a **real-device closed loop**:
 
-- **📱 Real-device-dominant infrastructure**: hundreds of physical phones, tablets, and in-vehicle cockpits, complemented by sandboxes, so data collection, training, rollout, and evaluation share a single real-deployment distribution.
+- **📱 Real-device-dominant infrastructure**: hundreds of physical phones, tablets, and in-vehicle cockpits, complemented by sandboxes, so collection, training, rollout, and evaluation share one real-deployment distribution.
 - **🔁 Error-driven data flywheel**: failure trajectories from real rollouts are converted into corrected actions, reflective rationales, and recovery demonstrations.
 - **🎯 Progressive three-stage training**: SFT → Step RL → Agentic RL incrementally builds basic interface operation, long-horizon planning, and error recovery.
 - **🧪 RealMobile benchmark**: 100 real-device tasks across 14 live apps, scored by fine-grained sub-goals, with 57% spanning multiple applications.
