@@ -65,12 +65,6 @@ High benchmark scores do not reliably predict performance on real devices, where
 
 > **Takeaway.** Xiaomi-GUI-0 substantially outperforms locally deployable open-source models on the real-device benchmark and **achieves the best AndroidWorld result among evaluated models**, while approaching frontier proprietary systems despite their larger scale — evidence that a real-device closed loop narrows the gap between benchmark scores and real-world deployability.
 
-**GUI Grounding** — competitive on English/desktop-dominated public benchmarks despite being optimized for real-world Chinese mobile & cockpit apps.
-
-| ScreenSpot-V2 | MMBench-GUI-L2 | OSWorld-G | OSWorld-G-Refine |
-|:---:|:---:|:---:|:---:|
-| 94.7% | 82.7% | 58.7% | 64.2% |
-
 ***
 
 ## 🧪 The RealMobile Benchmark
