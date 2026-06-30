@@ -7,9 +7,9 @@
 *Trained and evaluated in a **real-device closed loop** — closing the benchmark-to-reality gap.*
 
 <p>
-  <a href="https://seerray-lab.github.io/Xiaomi-GUI-0/"><img src="https://img.shields.io/badge/🌐_Project_Page-Xiaomi--GUI--0-ff6700?style=flat" alt="Project Page"/></a>
-  <a href="https://huggingface.co/SeerRay-Lab"><img src="https://img.shields.io/badge/🤗_HuggingFace-Model_coming_soon-FFD21E?style=flat" alt="HuggingFace"/></a>
-  <a href="https://github.com/SeerRay-Lab/Xiaomi-GUI-0"><img src="https://img.shields.io/badge/GitHub-Code-181717?style=flat&logo=github" alt="GitHub"/></a>
+  <a href="https://seerray-lab.github.io/Xiaomi-GUI-0/"><img src="https://img.shields.io/badge/🌐_Project_Page-Xiaomi--GUI--0-ff6700?style=flat-square" alt="Project Page"/></a>
+  <a href="https://huggingface.co/SeerRay-Lab"><img src="https://img.shields.io/badge/🤗_HuggingFace-Model_coming_soon-FFD21E?style=flat-square" alt="HuggingFace"/></a>
+  <a href="https://github.com/SeerRay-Lab/Xiaomi-GUI-0"><img src="https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github" alt="GitHub"/></a>
 </p>
 
 </div>
