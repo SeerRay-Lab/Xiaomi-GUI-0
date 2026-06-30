@@ -19,8 +19,6 @@
   <img src="https://img.shields.io/badge/Benchmark-100_tasks_·_14_apps-orange" alt="Benchmark"/>
 </p>
 
-📱 **Real-device-dominant** &nbsp;·&nbsp; 🔁 **Error-driven data flywheel** &nbsp;·&nbsp; 🎯 **SFT → Step RL → Agentic RL** &nbsp;·&nbsp; 🧪 **RealMobile benchmark**
-
 </div>
 
 ***
