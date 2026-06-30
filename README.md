@@ -10,7 +10,7 @@
 
 <p>
   <a href="https://seerray-lab.github.io/Xiaomi-GUI-0/"><img src="https://img.shields.io/badge/🌐_Project_Page-Xiaomi--GUI--0-ff6700?style=for-the-badge" alt="Project Page"/></a>
-  <a href="https://huggingface.co/SeerRay-Lab"><img src="https://img.shields.io/badge/🤗_HuggingFace-SeerRay--Lab-FFD21E?style=for-the-badge" alt="HuggingFace"/></a>
+  <a href="https://huggingface.co/SeerRay-Lab"><img src="https://img.shields.io/badge/🤗_HuggingFace-Model_coming_soon-FFD21E?style=for-the-badge" alt="HuggingFace"/></a>
   <a href="https://github.com/SeerRay-Lab/Xiaomi-GUI-0"><img src="https://img.shields.io/badge/GitHub-Code-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
 </p>
 
@@ -31,7 +31,7 @@
 
 - **2026-06** — 🌐 Project page is live: **[seerray-lab.github.io/Xiaomi-GUI-0](https://seerray-lab.github.io/Xiaomi-GUI-0/)**
 - **2026-06** — 📊 Released the **RealMobile** benchmark — 100 real-device tasks across 14 live Chinese apps, scored by fine-grained sub-goals.
-- **2026-06** — 🤗 Models and evaluation suites available under **[SeerRay-Lab](https://huggingface.co/SeerRay-Lab)** on HuggingFace.
+- **2026-06** — 🤗 Evaluation suites available under **[SeerRay-Lab](https://huggingface.co/SeerRay-Lab)** on HuggingFace. *Model weights are not released yet — stay tuned.*
 
 ***
 
