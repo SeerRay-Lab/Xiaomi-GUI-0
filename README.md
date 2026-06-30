@@ -37,7 +37,7 @@ High benchmark scores do not reliably predict performance on real devices, where
 
 ## 📊 Main Results
 
-**Navigation** — task completion on the real-device **RealMobile** benchmark and on **AndroidWorld**. Success = fraction of fully completed tasks; Progress = mean fraction of completed sub-goals. Reported as mean@4 over four runs.
+> Success denotes the fraction of fully completed tasks; Progress denotes the mean fraction of completed sub-goals per task.
 
 | Model | RealMobile&nbsp;Success | RealMobile&nbsp;Progress | AndroidWorld |
 |---|:---:|:---:|:---:|
