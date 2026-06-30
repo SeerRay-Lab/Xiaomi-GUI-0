@@ -70,13 +70,13 @@ RealMobile is built from real user traffic, hand-crafted for reproducible evalua
 
 One agent model, evaluated three ways and shipped as a product. Each directory has its own README with full setup and usage.
 
-| Directory | Role | Highlights |
-|---|---|---|
-| [`guiness/`](guiness/) | Desktop client that runs the agent on a real phone | PySide6 + Android companion; WiFi (no ADB) or USB; interactive + batch eval; adapters for Gemini / Claude / GPT / Doubao / AutoGLM / Step-GUI / Xiaomi-GUI-0 |
-| [`android_world_eval/`](android_world_eval/) | Dynamic emulator benchmark | Vision-only AndroidWorld, 116 tasks / 20 apps; `<think>→<action>→<tool_call>`; checkpoint/resume |
-| [`grounding-eval/`](grounding-eval/) | Static grounding benchmark | 5 datasets (ScreenSpot, ScreenSpot-V2, MMBench-GUI, OSWorld-G, OSWorld-G-Refine); distributed via torchrun |
-| [`RealMobile/`](RealMobile/) | Real-phone Chinese-app benchmark | XPath rule-based scoring of recorded trajectories; PaddleOCR-augmented UI XML |
-| [`demo/`](demo/) | Sample trajectories (data only) | AndroidWorld episodes: `task.json` + per-step screenshots |
+| Directory | What it is |
+|---|---|
+| [`guiness/`](guiness/) | **Desktop client** that runs the agent on a real phone — PySide6 + Android companion, WiFi (no ADB) or USB, interactive and batch eval. |
+| [`android_world_eval/`](android_world_eval/) | **Dynamic emulator benchmark** — vision-only AndroidWorld, 116 tasks across 20 apps, with checkpoint/resume. |
+| [`grounding-eval/`](grounding-eval/) | **Static grounding benchmark** — 5 datasets (ScreenSpot, ScreenSpot-V2, MMBench-GUI, OSWorld-G, OSWorld-G-Refine), distributed via torchrun. |
+| [`RealMobile/`](RealMobile/) | **Real-phone Chinese-app benchmark** — XPath rule-based scoring of recorded trajectories, PaddleOCR-augmented UI XML. |
+| [`demo/`](demo/) | **Sample trajectories** — AndroidWorld episodes (`task.json` + per-step screenshots), data only. |
 
 ## 📚 Reference
 
