@@ -12,13 +12,6 @@
   <a href="https://github.com/SeerRay-Lab/Xiaomi-GUI-0"><img src="https://img.shields.io/badge/GitHub-Code-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
 </p>
 
-<p>
-  <img src="https://img.shields.io/badge/Backbone-Qwen3--VL--30B--A3B-blue" alt="Backbone"/>
-  <img src="https://img.shields.io/badge/RealMobile-72.0%25-success" alt="RealMobile"/>
-  <img src="https://img.shields.io/badge/AndroidWorld-78.9%25-success" alt="AndroidWorld"/>
-  <img src="https://img.shields.io/badge/Benchmark-100_tasks_·_14_apps-orange" alt="Benchmark"/>
-</p>
-
 </div>
 
 ***
