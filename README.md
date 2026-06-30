@@ -16,11 +16,11 @@
 
 ***
 
-## 🚨 News
+## 📰 News
 
-- **2026-06** — 🌐 Project page is live: **[seerray-lab.github.io/Xiaomi-GUI-0](https://seerray-lab.github.io/Xiaomi-GUI-0/)**
-- **2026-06** — 📊 Released the **RealMobile** benchmark — 100 real-device tasks across 14 live Chinese apps, scored by fine-grained sub-goals.
-- **2026-06** — 🤗 Evaluation suites available in the **[Xiaomi-GUI-0 collection](https://huggingface.co/collections/SeerRay-Lab/xiaomi-gui-0)** on HuggingFace. *Model weights are not released yet — stay tuned.*
+- **2026-06** — 🚀 Released the **Xiaomi-GUI-0** technical report, code, and evaluation suites. *Model weights coming soon.*
+- **2026-06** — 🧪 Released **RealMobile**, a real-device benchmark of 100 tasks across 14 live mobile apps, scored by fine-grained sub-goals.
+- **2026-06** — 🌐 Launched the [project page](https://seerray-lab.github.io/Xiaomi-GUI-0/) and the [HuggingFace collection](https://huggingface.co/collections/SeerRay-Lab/xiaomi-gui-0).
 
 ***
 
