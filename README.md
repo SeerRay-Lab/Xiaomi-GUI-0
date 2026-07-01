@@ -18,7 +18,7 @@
 ## 📰 News
 
 - **2026-06** — 🚀 Released the **Xiaomi-GUI-0** [technical report](https://arxiv.org/abs/2606.31410), code, and evaluation suites.
-- **2026-06** — 🧪 Released [**RealMobile**](https://huggingface.co/datasets/SeerRay-Lab/RealMobile-BMK), a real-device benchmark across 14 live apps with sub-goal scoring.
+- **2026-06** — 🧪 Released [**RealMobile**](https://github.com/SeerRay-Lab/Xiaomi-GUI-0/tree/main/RealMobile), a real-device benchmark across 14 live apps with sub-goal scoring.
 - **2026-06** — 🌐 Launched the [project page](https://seerray-lab.github.io/Xiaomi-GUI-0/) and the [HuggingFace collection](https://huggingface.co/collections/SeerRay-Lab/xiaomi-gui-0).
 
 ## ✨ What Is Xiaomi-GUI-0?
