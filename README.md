@@ -75,7 +75,6 @@ One agent model, evaluated three ways and shipped as a product. Each directory h
 |---|---|
 | [`guiness/`](guiness/) | **Desktop client** that runs the agent on a real phone. PySide6 application with a Kotlin Android companion; connects over WiFi (no ADB) or USB; interactive GUI plus a batch evaluation runner. |
 | [`android_world_eval/`](android_world_eval/) | **Dynamic emulator benchmark** built on AndroidWorld. The agent sees screenshots only (no accessibility tree); 116 tasks across 20 applications, with checkpoint and resume. |
-| [`grounding-eval/`](grounding-eval/) | **Static grounding benchmark** across 5 datasets (ScreenSpot, ScreenSpot-V2, MMBench-GUI, OSWorld-G, OSWorld-G-Refine). Scores whether the predicted click point lands inside the ground-truth box; runs distributed via torchrun. |
 | [`RealMobile/`](RealMobile/) | **Real-phone Chinese-application benchmark.** Scores recorded trajectories by fine-grained sub-goals, verified with XPath and code rules over the UI hierarchy XML, with PaddleOCR for on-screen text. |
 | [`demo/`](demo/) | **Sample trajectories.** A few AndroidWorld episodes (`task.json` plus per-turn screenshots). Data only, no code. |
 
