@@ -7,6 +7,7 @@
 *Trained and evaluated in a **real-device closed loop** — closing the benchmark-to-reality gap.*
 
 <p>
+  <a href="https://arxiv.org/abs/2606.31410"><img src="https://img.shields.io/badge/arXiv-2606.31410-b31b1b?style=flat-square&logo=arxiv" alt="arXiv"/></a>
   <a href="https://seerray-lab.github.io/Xiaomi-GUI-0/"><img src="https://img.shields.io/badge/🌐_Project_Page-Xiaomi--GUI--0-ff6700?style=flat-square" alt="Project Page"/></a>
   <a href="https://huggingface.co/collections/SeerRay-Lab/xiaomi-gui-0"><img src="https://img.shields.io/badge/🤗_HuggingFace-Model_coming_soon-FFD21E?style=flat-square" alt="HuggingFace"/></a>
   <a href="https://github.com/SeerRay-Lab/Xiaomi-GUI-0"><img src="https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github" alt="GitHub"/></a>
@@ -16,7 +17,7 @@
 
 ## 📰 News
 
-- **2026-06** — 🚀 Released the **Xiaomi-GUI-0** technical report, code, and evaluation suites.
+- **2026-06** — 🚀 Released the **Xiaomi-GUI-0** [technical report](https://arxiv.org/abs/2606.31410), code, and evaluation suites.
 - **2026-06** — 🧪 Released [**RealMobile**](https://huggingface.co/datasets/SeerRay-Lab/RealMobile-BMK), a real-device benchmark across 14 live apps with sub-goal scoring.
 - **2026-06** — 🌐 Launched the [project page](https://seerray-lab.github.io/Xiaomi-GUI-0/) and the [HuggingFace collection](https://huggingface.co/collections/SeerRay-Lab/xiaomi-gui-0).
 
@@ -83,12 +84,14 @@ One agent model, evaluated three ways and shipped as a product. Each directory h
 If you find the resources in this repository helpful, please cite as:
 
 ```bibtex
-@techreport{xiaomigui0_2026,
-  title        = {Xiaomi-GUI-0 Technical Report},
-  author       = {},
-  institution  = {Xiaomi},
-  year         = {2026},
-  url          = {https://github.com/SeerRay-Lab/Xiaomi-GUI-0}
+@misc{cao2026xiaomigui0technicalreport,
+      title={Xiaomi-GUI-0 Technical Report}, 
+      author={Wanxia Cao and Chengzhen Duan and Pei Fu and Pengzhi Gao and Niu Lian and Fazhan Liu and Hui Liu and Heng Qu and Qinzhuo Wu and Zhehao Yu and Tongbo Chen and Shiqi Cui and Anan Du and Shukai Jia and Yuanfa Li and Yike Liu and Wenchao Lu and Haoyuan Sun and Jiatong Sun and Cheng Tan and Yajie Wang and Changqiao Wu and Tao Xiong and Jiahui Yang and Yuxuan Yuan and Ruoceng Zhang and Shaojie Zhang and Jian Zhu and Jian Luan and Cong Zou},
+      year={2026},
+      eprint={2606.31410},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2606.31410}, 
 }
 ```
 
