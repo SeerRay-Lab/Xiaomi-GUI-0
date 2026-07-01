@@ -67,9 +67,9 @@ RealMobile is built from real user traffic, hand-crafted for reproducible evalua
   <img src="https://raw.githubusercontent.com/SeerRay-Lab/Xiaomi-GUI-0/gh-pages/assets/figs/multiapp_bar.png" width="40%" alt="Applications per task"/>
 </div>
 
-## 🗂️ Components
+## 🗂️ Repository Layout
 
-One agent model, evaluated three ways and shipped as a product. Each directory has its own README with full setup and usage.
+The agent is shipped as a product and evaluated by two complementary benchmarks. Each directory has its own README with full setup and usage.
 
 | Directory | What it is |
 |---|---|
