@@ -138,7 +138,12 @@
       if (/^评分规则/.test(ln)) { mode = "step"; continue; }
       if (/^一票否决/.test(ln)) { mode = "veto"; continue; }
       const m = ln.match(/^(.*?)\s*→\s*总分\s*[:：]\s*([0-9.]+)\s*$/);
-      if (m) { out.steps.push({ text: m[1].trim(), score: m[2] }); continue; }
+      if (m) {
+        const text = m[1].trim();
+        if (mode === "veto") out.veto.push(text);
+        else out.steps.push({ text, score: m[2] });
+        continue;
+      }
       if (mode === "veto") {
         if (/^暂无$/.test(ln)) continue;
         out.veto.push(ln);
@@ -221,8 +226,8 @@
   async function boot() {
     try {
       const [lb, tf] = await Promise.all([
-        fetch("leaderboard.json?v=3").then((r) => r.json()),
-        fetch("tasks.json?v=3").then((r) => r.json()),
+        fetch("leaderboard.json?v=5").then((r) => r.json()),
+        fetch("tasks.json?v=5").then((r) => r.json()),
       ]);
       LB = lb.leaderboard || []; DOM = lb.domains || [];
       TASKS = (tf.tasks || []).sort((a, b) => a.id - b.id);
