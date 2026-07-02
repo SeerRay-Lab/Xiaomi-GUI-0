@@ -93,7 +93,3 @@ If you find the resources in this repository helpful, please cite as:
       url={https://arxiv.org/abs/2606.31410}, 
 }
 ```
-
-<div align="center">
-<sub>Visit the <a href="https://seerray-lab.github.io/Xiaomi-GUI-0/">project page</a> for demos, full results, and updates.</sub>
-</div>
