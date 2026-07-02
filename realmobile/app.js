@@ -176,7 +176,7 @@
     }
 
     $("#modalBody").innerHTML = `
-      <div class="m-id">Task #${t.id} · ${Math.round(t.success_rate * 100)}% success · ${t.total_paths} trajectories scored</div>
+      <div class="m-id">Task #${t.id}</div>
       <h3>${esc(t.query)}</h3>
       <div class="m-meta">${pills}</div>
       ${rubric}`;
