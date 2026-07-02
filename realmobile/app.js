@@ -37,7 +37,6 @@
         <td>${typeTag}</td>
         <td class="num">${cell(m.success, key === "success", barW, max, m.success)}</td>
         <td class="num">${cell(m.progress, key === "progress", barW, max, m.progress)}</td>
-        <td class="num">${cell(m.aw, key === "aw", barW, max, m.aw)}</td>
       </tr>`;
     }).join("");
   }
@@ -215,9 +214,6 @@
     $("#multiOnly").addEventListener("change", (e) => { exState.multiOnly = e.target.checked; renderTasks(); });
     $$("#taskModal [data-close]").forEach((el) => el.addEventListener("click", closeModal));
     document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeModal(); });
-    const withRules = TASKS.filter((t) => t.steprules).length;
-    $("#taskNote").textContent =
-      `${withRules} of ${TASKS.length} tasks include the full open-sourced sub-goal rubric; the remainder are scored by rules in the benchmark repository.`;
   }
 
   /* ==========================================================

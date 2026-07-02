@@ -17,17 +17,16 @@
 <nav id="navbar">
   <div class="nav-inner">
     <a class="nav-brand" href="#top">
-      <span class="brand-mark">RM</span>
+      <img class="brand-logo" src="../assets/logo/xiaomi_logo.svg" alt="Xiaomi logo">
       <span>RealMobile</span>
     </a>
     <button class="nav-toggle" aria-label="Toggle menu" onclick="document.getElementById('navlinks').classList.toggle('open')">☰</button>
     <div class="nav-links" id="navlinks">
       <a href="#overview">Overview</a>
       <a href="#leaderboard">Leaderboard</a>
-      <a href="#stats">Statistics</a>
       <a href="#explorer">Tasks</a>
-      <a href="#resources">Resources</a>
-      <a class="nav-cta home" href="../index.html">← Xiaomi-GUI-0</a>
+      <a href="#citation">Citation</a>
+      <a class="nav-cta home" href="../index.html">Xiaomi-GUI-0 ↗</a>
     </div>
   </div>
 </nav>
@@ -67,8 +66,8 @@
     <p class="lead">
       High benchmark scores do not reliably predict performance on real devices. Account states,
       permission dialogs, payment authentication, and risk-control mechanisms continually reshape the
-      state distribution a GUI agent actually encounters — opening a persistent gap between offline
-      scores and real-world usability.
+      state distribution a GUI agent actually encounters — opening a persistent gap between benchmark
+      performance and real-world usability.
     </p>
     <p>
       RealMobile closes that gap by evaluating agents <b>where they will be deployed</b>: on physical
@@ -79,26 +78,26 @@
 
     <div class="pillars">
       <div class="pillar">
-        <div class="pillar-ico">📱</div>
-        <h3>Real Devices, Live Apps</h3>
+        <div class="pillar-head"><span class="pillar-ico">📱</span>
+          <h3>Real Devices, Live Apps</h3></div>
         <p>Executed on physical phones against production applications — capturing permission dialogs,
           login walls, and risk control that emulators never surface.</p>
       </div>
       <div class="pillar">
-        <div class="pillar-ico">🎯</div>
-        <h3>Sub-Goal Scoring</h3>
-        <p>Each task is broken into ordered sub-goals with partial credit (e.g. 0.33 → 0.66 → 1.0),
+        <div class="pillar-head"><span class="pillar-ico">🎯</span>
+          <h3>Sub-Goal Scoring</h3></div>
+        <p>Each task is broken into ordered sub-goals with partial credit,
           verified with XPath and code rules over the UI-hierarchy XML plus PaddleOCR text.</p>
       </div>
       <div class="pillar">
-        <div class="pillar-ico">🔗</div>
-        <h3>Multi-App by Design</h3>
+        <div class="pillar-head"><span class="pillar-ico">🔗</span>
+          <h3>Multi-App by Design</h3></div>
         <p>57% of tasks require coordinating two or more applications — cross-app search, information
-          transfer, and comparison — reflecting how people actually use their phones.</p>
+          transfer, and comparison — reflecting how people use their phones.</p>
       </div>
       <div class="pillar">
-        <div class="pillar-ico">🔍</div>
-        <h3>Transparent & Reproducible</h3>
+        <div class="pillar-head"><span class="pillar-ico">🔍</span>
+          <h3>Transparent & Reproducible</h3></div>
         <p>Every query, sub-goal rule, and scoring script is open. Recorded trajectories are re-scored
           deterministically, so results are auditable end-to-end.</p>
       </div>
@@ -111,8 +110,7 @@
   <div class="container">
     <h2 class="section-title">Leaderboard</h2>
     <p class="section-intro">
-      <b>Success</b> = fraction of fully completed tasks. <b>Progress</b> = mean fraction of completed
-      sub-goals per task. <b>AndroidWorld</b> shown for reference where available. Reported as mean@4.
+      <b>Success</b> = fraction of tasks fully completed. <b>Progress</b> = mean fraction of sub-goals completed.
     </p>
 
     <div class="lb-controls">
@@ -125,7 +123,6 @@
         <span class="seg-label">Sort by</span>
         <button class="seg-btn active" data-s="success">Success</button>
         <button class="seg-btn" data-s="progress">Progress</button>
-        <button class="seg-btn" data-s="aw">AndroidWorld</button>
       </div>
     </div>
 
@@ -139,7 +136,6 @@
               <th>Type</th>
               <th class="num">Success</th>
               <th class="num">Progress</th>
-              <th class="num">AndroidWorld</th>
             </tr>
           </thead>
           <tbody id="lbBody"><!-- injected --></tbody>
@@ -149,8 +145,6 @@
 
     <div class="card">
       <h3 class="card-title">Per-Domain Success (%)</h3>
-      <p class="card-note">Four capability domains. Xiaomi-GUI-0 leads all open-source models and is
-        competitive with frontier proprietary systems.</p>
       <div class="table-wrap">
         <table class="data-table compact" id="domTable">
           <thead>
@@ -166,68 +160,13 @@
   </div>
 </section>
 
-<!-- ===================== STATISTICS ===================== -->
-<section id="stats" class="section">
-  <div class="container">
-    <h2 class="section-title">Benchmark Statistics</h2>
-    <p class="section-intro">
-      100 tasks comprise 193 application instances across 14 live apps and four capability domains.
-    </p>
-
-    <div class="domain-grid">
-      <div class="domain-card">
-        <span class="domain-count">10 tasks</span>
-        <h3>Foundation</h3>
-        <p>Basic GUI operations: clicking, scrolling, inputting, and navigating across interfaces.</p>
-        <span class="domain-meta">avg 1.30 apps · 10% multi-app</span>
-      </div>
-      <div class="domain-card">
-        <span class="domain-count">16 tasks</span>
-        <h3>Safety &amp; Reflection</h3>
-        <p>Refusing unsafe or irreversible operations and recognizing infeasible goals to stop or skip.</p>
-        <span class="domain-meta">avg 1.31 apps · 31% multi-app</span>
-      </div>
-      <div class="domain-card">
-        <span class="domain-count">33 tasks</span>
-        <h3>Memory &amp; Knowledge</h3>
-        <p>Retaining information across steps and applying external knowledge to complete tasks.</p>
-        <span class="domain-meta">avg 1.73 apps · 58% multi-app</span>
-      </div>
-      <div class="domain-card">
-        <span class="domain-count">41 tasks</span>
-        <h3>Complex Reasoning &amp; Planning</h3>
-        <p>Long-horizon planning, multi-source aggregation, and adaptive decision-making.</p>
-        <span class="domain-meta">avg 2.49 apps · 78% multi-app</span>
-      </div>
-    </div>
-
-    <div class="figure-grid two">
-      <figure class="figure">
-        <img src="assets/figs/app_freq_pie.png" alt="Application frequency across RealMobile tasks" loading="lazy">
-        <figcaption>Application frequency across the 100 tasks (193 app instances). Douyin, Xiaohongshu,
-          and Weibo appear most often.</figcaption>
-      </figure>
-      <figure class="figure">
-        <img src="assets/figs/multiapp_bar.png" alt="Number of applications per task" loading="lazy">
-        <figcaption>57% of tasks involve multiple applications — 38% span two apps, 9% three, and 10%
-          four or more.</figcaption>
-      </figure>
-    </div>
-    <figure class="figure wide">
-      <img src="assets/figs/app_domain_heatmap.png" alt="Per-application task counts across capability domains" loading="lazy">
-      <figcaption>Per-application task counts across the four capability domains, confirming broad
-        coverage in every domain.</figcaption>
-    </figure>
-  </div>
-</section>
-
 <!-- ===================== TASK EXPLORER ===================== -->
 <section id="explorer" class="section section-alt">
   <div class="container">
-    <h2 class="section-title">Task Explorer</h2>
+    <h2 class="section-title">Tasks</h2>
     <p class="section-intro">
       Browse the RealMobile tasks — each with its natural-language query, the applications involved,
-      and the ordered sub-goal rubric used for scoring. Click any row for the full rubric.
+      and the ordered sub-goal rubric used for scoring. <strong>Click any row for the full rubric.</strong>
     </p>
 
     <div class="explorer-controls">
@@ -253,7 +192,6 @@
         </table>
       </div>
     </div>
-    <p class="explorer-note" id="taskNote"></p>
   </div>
 </section>
 
@@ -266,39 +204,20 @@
   </div>
 </div>
 
-<!-- ===================== RESOURCES ===================== -->
-<section id="resources" class="section">
+<!-- ===================== CITATION ===================== -->
+<section id="citation" class="section section-alt">
   <div class="container narrow">
-    <h2 class="section-title">Resources</h2>
-    <div class="res-grid">
-      <a class="res-card" href="https://github.com/SeerRay-Lab/Xiaomi-GUI-0/tree/main/RealMobile" target="_blank" rel="noopener">
-        <div class="res-ico">💻</div>
-        <h3>Benchmark & Scoring Code</h3>
-        <p>Task rules, the XPath evaluation engine, and aggregation scripts.</p>
-      </a>
-      <a class="res-card" href="../index.html">
-        <div class="res-ico">🏠</div>
-        <h3>Xiaomi-GUI-0 Project Page</h3>
-        <p>The agent evaluated on RealMobile — method, results, and demos.</p>
-      </a>
-      <a class="res-card" href="https://arxiv.org/abs/2606.31410" target="_blank" rel="noopener">
-        <div class="res-ico">📄</div>
-        <h3>Technical Report</h3>
-        <p>Full description of RealMobile construction and evaluation.</p>
-      </a>
-    </div>
-
-    <h3 class="contrib-h">Citation</h3>
+    <h2 class="section-title">Citation</h2>
     <div class="cite-box">
       <button class="copy-btn" onclick="copyCite(this)">Copy</button>
       <pre id="bibtex">@misc{cao2026xiaomigui0technicalreport,
-  title        = {Xiaomi-GUI-0 Technical Report},
-  author       = {Mimir Team and Xiaomi},
-  year         = {2026},
-  eprint       = {2606.31410},
-  archivePrefix= {arXiv},
-  primaryClass = {cs.AI},
-  url          = {https://arxiv.org/abs/2606.31410}
+      title={Xiaomi-GUI-0 Technical Report},
+      author={Wanxia Cao and Chengzhen Duan and Pei Fu and Pengzhi Gao and Niu Lian and Fazhan Liu and Hui Liu and Heng Qu and Qinzhuo Wu and Zhehao Yu and Tongbo Chen and Shiqi Cui and Anan Du and Shukai Jia and Yuanfa Li and Wei Liu and Yike Liu and Wenchao Lu and Zhenbo Luo and Haoyuan Sun and Jiatong Sun and Cheng Tan and Yajie Wang and Changqiao Wu and Tao Xiong and Jiahui Yang and Yuxuan Yuan and Ruoceng Zhang and Shaojie Zhang and Jian Zhu and Jian Luan and Cong Zou},
+      year={2026},
+      eprint={2606.31410},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2606.31410},
 }</pre>
     </div>
   </div>
@@ -306,13 +225,8 @@
 
 <footer>
   <div class="container">
-    <p><strong>RealMobile</strong> — A Real-Device Benchmark for Mobile GUI Agents</p>
-    <div class="footer-links">
-      <a href="../index.html">Xiaomi-GUI-0</a>
-      <a href="https://github.com/SeerRay-Lab/Xiaomi-GUI-0/tree/main/RealMobile" target="_blank" rel="noopener">GitHub</a>
-      <a href="https://arxiv.org/abs/2606.31410" target="_blank" rel="noopener">arXiv</a>
-    </div>
-    <p class="footer-fine">© 2026 Mimir Team, Xiaomi. Part of the Xiaomi-GUI-0 project.</p>
+    <img src="../assets/logo/xiaomi_logo.png?v=3" alt="Xiaomi" class="footer-logo">
+    <p class="footer-fine">© 2026 Xiaomi.</p>
   </div>
 </footer>
 
