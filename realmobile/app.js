@@ -221,8 +221,8 @@
   async function boot() {
     try {
       const [lb, tf] = await Promise.all([
-        fetch("leaderboard.json").then((r) => r.json()),
-        fetch("tasks.json").then((r) => r.json()),
+        fetch("leaderboard.json?v=3").then((r) => r.json()),
+        fetch("tasks.json?v=3").then((r) => r.json()),
       ]);
       LB = lb.leaderboard || []; DOM = lb.domains || [];
       TASKS = (tf.tasks || []).sort((a, b) => a.id - b.id);
