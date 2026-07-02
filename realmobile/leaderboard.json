@@ -1,0 +1,198 @@
+{
+ "leaderboard": [
+  {
+   "model": "Gemini 3.1 Pro",
+   "org": "Google",
+   "type": "proprietary",
+   "success": 85.0,
+   "progress": 89.6,
+   "aw": null
+  },
+  {
+   "model": "Seed 2.0 Pro",
+   "org": "ByteDance",
+   "type": "proprietary",
+   "success": 80.0,
+   "progress": 88.1,
+   "aw": null
+  },
+  {
+   "model": "Xiaomi-GUI-0-30B-A3B",
+   "org": "Xiaomi",
+   "type": "ours",
+   "success": 72.0,
+   "progress": 85.8,
+   "aw": 78.9
+  },
+  {
+   "model": "Seed 1.8",
+   "org": "ByteDance",
+   "type": "proprietary",
+   "success": 65.0,
+   "progress": 82.4,
+   "aw": 70.7
+  },
+  {
+   "model": "Claude Opus 4.7",
+   "org": "Anthropic",
+   "type": "proprietary",
+   "success": 60.0,
+   "progress": 74.8,
+   "aw": null
+  },
+  {
+   "model": "Gemini 3.1 Flash",
+   "org": "Google",
+   "type": "proprietary",
+   "success": 58.0,
+   "progress": 72.4,
+   "aw": null
+  },
+  {
+   "model": "MAI-UI-8B",
+   "org": "open",
+   "type": "opensource",
+   "success": 33.0,
+   "progress": 50.8,
+   "aw": 70.7
+  },
+  {
+   "model": "Claude Opus 4.6",
+   "org": "Anthropic",
+   "type": "proprietary",
+   "success": 33.0,
+   "progress": 56.7,
+   "aw": null
+  },
+  {
+   "model": "GUI-Owl-1.5-32B-Thinking",
+   "org": "open",
+   "type": "opensource",
+   "success": 31.0,
+   "progress": 51.7,
+   "aw": 69.8
+  },
+  {
+   "model": "GUI-Owl-1.5-8B-Thinking",
+   "org": "open",
+   "type": "opensource",
+   "success": 26.0,
+   "progress": 39.0,
+   "aw": 71.6
+  },
+  {
+   "model": "GUI-Owl-1.5-8B-Instruct",
+   "org": "open",
+   "type": "opensource",
+   "success": 25.0,
+   "progress": 44.0,
+   "aw": 69.0
+  },
+  {
+   "model": "UI-TARS-1.5",
+   "org": "ByteDance",
+   "type": "proprietary",
+   "success": 24.0,
+   "progress": 40.5,
+   "aw": 64.2
+  },
+  {
+   "model": "GUI-Owl-1.5-32B-Instruct",
+   "org": "open",
+   "type": "opensource",
+   "success": 22.0,
+   "progress": 40.6,
+   "aw": 69.8
+  },
+  {
+   "model": "UI-Venus-1.5-30B-A3B",
+   "org": "open",
+   "type": "opensource",
+   "success": 21.0,
+   "progress": 44.6,
+   "aw": 77.6
+  },
+  {
+   "model": "UI-Venus-1.5-8B",
+   "org": "open",
+   "type": "opensource",
+   "success": 16.0,
+   "progress": 41.6,
+   "aw": 73.7
+  },
+  {
+   "model": "Step-GUI-8B",
+   "org": "open",
+   "type": "opensource",
+   "success": 15.0,
+   "progress": 32.8,
+   "aw": 67.7
+  }
+ ],
+ "domains": [
+  {
+   "model": "Gemini 3.1 Pro",
+   "type": "proprietary",
+   "foundation": 100.0,
+   "safety": 62.5,
+   "memory": 93.9,
+   "reasoning": 82.9
+  },
+  {
+   "model": "Seed 2.0 Pro",
+   "type": "proprietary",
+   "foundation": 100.0,
+   "safety": 62.5,
+   "memory": 90.9,
+   "reasoning": 73.2
+  },
+  {
+   "model": "Xiaomi-GUI-0-30B-A3B",
+   "type": "ours",
+   "foundation": 100.0,
+   "safety": 43.8,
+   "memory": 66.7,
+   "reasoning": 80.5
+  },
+  {
+   "model": "Seed 1.8",
+   "type": "proprietary",
+   "foundation": 70.0,
+   "safety": 43.8,
+   "memory": 60.6,
+   "reasoning": 75.6
+  },
+  {
+   "model": "Claude Opus 4.7",
+   "type": "proprietary",
+   "foundation": 70.0,
+   "safety": 37.5,
+   "memory": 63.6,
+   "reasoning": 63.4
+  },
+  {
+   "model": "MAI-UI-8B",
+   "type": "opensource",
+   "foundation": 50.0,
+   "safety": 31.2,
+   "memory": 30.3,
+   "reasoning": 31.7
+  },
+  {
+   "model": "GUI-Owl-1.5-32B-Thinking",
+   "type": "opensource",
+   "foundation": 50.0,
+   "safety": 37.5,
+   "memory": 33.3,
+   "reasoning": 21.9
+  },
+  {
+   "model": "UI-Venus-1.5-30B-A3B",
+   "type": "opensource",
+   "foundation": 40.0,
+   "safety": 18.8,
+   "memory": 24.2,
+   "reasoning": 14.6
+  }
+ ]
+}

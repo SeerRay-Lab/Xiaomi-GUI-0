@@ -85,6 +85,10 @@ a{color:var(--orange);text-decoration:none}
 .btn .ico-svg{width:1.05rem;height:1.05rem;display:block}
 .btn-dark{background:var(--ink);color:#fff}
 .btn-dark:hover{background:var(--orange);transform:translateY(-2px);box-shadow:0 10px 24px rgba(255,103,0,.28)}
+.btn-benchmark{background:var(--orange);color:#fff;box-shadow:0 8px 20px rgba(255,103,0,.28)}
+.btn-benchmark:hover{background:var(--orange-dark,#e65c00);transform:translateY(-2px);box-shadow:0 12px 28px rgba(255,103,0,.36)}
+.nav-cta.benchmark{background:#fff3ec!important;color:#e65c00!important;border:1px solid #ffd9c2}
+.nav-cta.benchmark:hover{background:var(--orange)!important;color:#fff!important}
 
 /* ---------- SECTIONS ---------- */
 .section{padding:88px 0}
