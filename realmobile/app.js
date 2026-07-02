@@ -106,13 +106,11 @@
       const pills = (t.apps || []).map((a) =>
         `<span class="app-pill${multi ? " multi" : ""}">${esc(a)}</span>`).join("");
       const nSub = countSubgoals(t.steprules);
-      const sr = t.success_rate;
       return `<tr data-id="${t.id}">
         <td class="rank-col">${t.id}</td>
         <td class="q">${esc(t.query)}</td>
         <td><div class="app-pills">${pills}</div></td>
         <td class="num">${nSub || "—"}</td>
-        <td class="num"><span class="sr ${srClass(sr)}">${Math.round(sr * 100)}%</span></td>
       </tr>`;
     }).join("");
 
