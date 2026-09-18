@@ -894,5 +894,5 @@ if __name__ == "__main__":
     print("index_list",index_list)
     print('paths',paths)
     remote_paths = ' '.join(paths)
-    cmd = f'scp -r {remote_paths} wuqinzhuo@10.220.181.245:"D:/code/claude/BMK/sample/"'
+    cmd = f'scp -r {remote_paths} {local_paths}'
     subprocess.run(cmd, shell=True)
