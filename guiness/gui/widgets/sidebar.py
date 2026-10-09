@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """侧边栏：对话列表 + 新建对话 + 设备状态 + 设置入口"""
 import os
 

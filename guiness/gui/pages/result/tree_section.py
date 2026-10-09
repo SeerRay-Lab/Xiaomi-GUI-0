@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """ResultPage 左侧目录树：日期 / App / Episode 三层。"""
 import json
 import os

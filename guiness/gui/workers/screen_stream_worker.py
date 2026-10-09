@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """后端无关的屏幕流 worker：接收一个帧迭代器工厂，在 QThread 中消费并 emit QImage。
 
 用于内嵌 LiveMirrorViewport 和独立弹窗 ScreenMirrorDialog 共用。

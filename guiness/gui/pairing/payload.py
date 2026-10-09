@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """配对协议的数据结构。
 
 二维码载荷和手机回拨结果都是 dataclass，独立一份避免上层代码到处拼 dict。

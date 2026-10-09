@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """
 图片处理工具
 包含图片压缩功能

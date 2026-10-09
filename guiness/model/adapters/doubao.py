@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """豆包 Doubao-Seed adapter — Thought/Action 格式，坐标用 <point>x y</point>。"""
 from __future__ import annotations
 

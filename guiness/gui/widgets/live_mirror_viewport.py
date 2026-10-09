@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """内嵌实时镜像视图：嵌入 ChatFeed 顶部，共享单一帧流。"""
 from __future__ import annotations
 

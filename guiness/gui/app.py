@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """
 ChatGPT 式对话主窗口：侧边栏 + 聊天流 + 输入栏
 """

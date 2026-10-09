@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """
 ADB 控制器层
 提供设备级别的控制，如执行adb命令、获取截图、打开应用等基础操作。

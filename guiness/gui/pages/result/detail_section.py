@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """ResultPage 右侧详情面板：query banner + 截图 + 步骤信息 + 评分。"""
 import os
 

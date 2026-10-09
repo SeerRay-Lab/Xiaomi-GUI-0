@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """WiFi 设备后端：通过 HTTP 与运行在手机上的 Guiness 自研 APP 通信。
 
 APP 内 AccessibilityService 做手势注入、MediaProjection 做截图。鉴权走

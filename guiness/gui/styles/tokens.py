@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """
 Guiness 设计 token —— 单一 source of truth。
 

@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """二维码生成：把 PairingPayload 的 JSON 编码成 QImage 供 QLabel 显示。
 
 依赖 `qrcode` 库（纯 Python，无 C 扩展，MIT）。打包进 PyInstaller 无特殊处理。

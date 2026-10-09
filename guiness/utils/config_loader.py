@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """向后兼容 shim：实际实现已迁移至 core.config。
 
 新代码请直接从 core.config 引入；库内部代码禁止再调用 get_*_config() 这类

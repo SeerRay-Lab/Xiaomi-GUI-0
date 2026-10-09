@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """DeviceBackend 协议：抽象 USB(ADB) 与 WiFi(自研 APP) 两条设备通路。
 
 上层（ActionExecutor / EpisodeRunner）只依赖这个协议，不直接接触 ADBController 或

@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """ConfigPage 的「高级设置」章节：设备选择 + 操作参数，整体折叠。
 
 设备区支持 USB / WiFi 两种模式（Stage 3）：

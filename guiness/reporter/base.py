@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """Reporter 协议：引擎通过它对外广播执行进度。
 
 为什么单独抽：

@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """设置对话框：左侧选项卡导航 + 右侧内容面板。
 
 布局模式仿 VS Code / macOS 系统偏好设置：

@@ -1,4 +1,5 @@
 ﻿import json
+# Copyright 2026 Xiaomi Corporation.
 import os
 import sys
 import xml.etree.ElementTree as ET

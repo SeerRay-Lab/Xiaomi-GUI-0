@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """device_type → (设备类型, 屏幕形态) 中文描述表。
 
 原 `InferenceClient._resolve_device_info` 硬编码 5 行字典，抽到独立模块以便

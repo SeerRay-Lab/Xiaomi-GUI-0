@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """配置页：模型选择（mify / 自定义端点互斥）+ 任务编辑 + 高级设置（可折叠）。
 
 为控制单文件规模，章节构建拆到 `gui/pages/config/` 下，本文件只保留：

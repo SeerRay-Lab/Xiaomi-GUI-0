@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """RealGUI adapter — 自研模型，使用中文 prompt + <thought>/<answer> 格式。"""
 from model.adapters import AdapterBase
 from model.adapters._common import build_messages_standard

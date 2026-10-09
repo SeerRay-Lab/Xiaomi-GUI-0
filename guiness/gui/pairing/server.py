@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """PC 端回拨 HTTP 服务。
 
 手机扫完二维码，主动 POST 到 PC 的 /pair 把自己的 IP/Token 回传。PC 这边起一个

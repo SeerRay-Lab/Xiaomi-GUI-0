@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """时间轴面板：动态展示运行中的任务步骤"""
 from PySide6.QtWidgets import (
     QScrollArea, QWidget, QVBoxLayout, QHBoxLayout, QLabel, QSizePolicy,

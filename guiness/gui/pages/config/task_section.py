@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """ConfigPage 的「评测任务」章节：可编辑表格 + JSONL 导入。"""
 import json
 

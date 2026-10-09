@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """QThread 单 episode 执行器：信号驱动，非轮询。"""
 import copy
 import os

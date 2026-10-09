@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """设备状态心跳线程：每秒真实探测一次，emit (connected, label) 给 GUI。
 
 - WiFi：HTTP GET <endpoint>/ping，超时 0.8s。返回任何 HTTP 响应均视为在线。

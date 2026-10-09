@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """会话管理：每个对话对应一次 Android 评测任务（PySide6 版本）"""
 import json
 import logging

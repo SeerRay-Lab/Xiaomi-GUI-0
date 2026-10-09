@@ -1,3 +1,4 @@
+# Copyright 2026 Xiaomi Corporation.
 import os
 import logging
 import requests

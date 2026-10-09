@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """组件工厂：消灭 CLI / GUI 两份重复的 Backend/Inference/Executor 装配。
 
 `run_eval.py` 与 `gui/workers/episode_worker.py` 都走这里。

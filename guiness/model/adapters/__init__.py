@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """模型 Adapter 热插拔架构。
 
 每个模型系列对应一个 Adapter 子类，封装：

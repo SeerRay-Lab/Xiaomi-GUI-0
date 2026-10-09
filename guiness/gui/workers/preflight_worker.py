@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """发送前连通性校验：手机 + 模型端点并行 ping。
 
 在 QThread 里跑，避免 GUI 线程阻塞；两个探测独立计时，任一失败即返回

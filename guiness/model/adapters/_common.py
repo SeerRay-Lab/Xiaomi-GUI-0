@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """Adapter 共享的 message 组装逻辑。"""
 from __future__ import annotations
 

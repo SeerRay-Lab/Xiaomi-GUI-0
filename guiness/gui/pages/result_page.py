@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """结果查看页：左侧目录树 + 右侧截图/步骤详情/评分。
 
 章节拆分在 `gui/pages/result/`，本文件只保留组装 + episode/评分等状态逻辑。

@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """底部输入栏：多行查询输入 + 发送/停止按钮
 
 Enter 发送，Shift+Enter 换行，高度自适应 1~4 行。

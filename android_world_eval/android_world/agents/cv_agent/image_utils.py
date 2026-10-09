@@ -1,3 +1,4 @@
+# Copyright 2026 Xiaomi Corporation.
 import base64
 import io
 import math

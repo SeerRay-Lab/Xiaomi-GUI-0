@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """App 注册表：标准名 / 包名 / 别名映射。
 
 数据源在 `apps/data/*.yaml`，本模块只做装载与派生映射构建。公共 API 保持

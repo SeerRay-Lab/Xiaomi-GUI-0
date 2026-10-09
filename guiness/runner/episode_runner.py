@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """单个 Episode 的执行引擎：截图 → 推理 → 动作分发 → 记录。
 
 引擎只负责产生 step_record，不再直接打印——所有渲染都走 Reporter（终端染色、

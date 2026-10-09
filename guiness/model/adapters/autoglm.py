@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """AutoGLM-9B adapter — do()/finish() 格式，坐标 0-1000。"""
 from __future__ import annotations
 

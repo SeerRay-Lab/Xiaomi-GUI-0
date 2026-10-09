@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """USB / ADB 设备后端：把 ADBController + AutomatorDevice 收到单一接口后。
 
 原来 ActionExecutor 和 EpisodeRunner 直接手持 `adb` + `automator` 两个对象，

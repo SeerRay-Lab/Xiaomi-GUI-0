@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """扫码配对模块：PC 显示二维码，手机扫码后回拨 PC 建立连接。
 
 公开 API：

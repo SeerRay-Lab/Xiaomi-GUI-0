@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """可折叠区域：标题 + 展开/收起内容。"""
 from PySide6.QtWidgets import QWidget, QVBoxLayout, QToolButton, QSizePolicy
 from PySide6.QtCore import Qt

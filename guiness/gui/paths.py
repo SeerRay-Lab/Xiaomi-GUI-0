@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """集中解析仓库/用户/资源相关的路径。
 
 历史上 6 个文件各写一份 `os.path.dirname(os.path.dirname(__file__))`

@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """滚动聊天流：动态添加消息控件"""
 from PySide6.QtWidgets import (
     QScrollArea, QWidget, QVBoxLayout, QHBoxLayout, QLabel, QFrame,

@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """scrcpy 视频流客户端：设备端 H.264 硬编码 -> PC 端 PyAV 解码。
 
 只做视频（control=false / audio=false），画面源换成 scrcpy 流以获得远高于

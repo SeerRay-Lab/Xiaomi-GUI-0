@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """
 模型推理层
 包含向 GUI Agent 大模型发送请求、处理响应格式等相关逻辑。

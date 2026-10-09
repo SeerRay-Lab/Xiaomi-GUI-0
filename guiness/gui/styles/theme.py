@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """读取 theme.qss 模板并用 tokens 填充。"""
 import os
 

@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """大模型推理客户端。
 
 通过 Adapter 热插拔架构支持不同模型系列的 system prompt、message 组装和响应解析。

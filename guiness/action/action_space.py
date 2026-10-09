@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """
 动作空间定义
 提供对模型输出动作的验证和标准化功能

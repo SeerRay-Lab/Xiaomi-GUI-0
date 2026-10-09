@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """
 截图查看器：显示截图并在上方叠加动作标注（Tap 圆点、Swipe 箭头等）。
 点击截图可弹出全屏大图。

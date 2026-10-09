@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """把 data/output/<date>/<app>/<episode_id>/task.json 反向合成 Conversation。
 
 用途：用户手工把别人的评测产物拷进 data/output 后，启动 GUI 应该能在侧边栏看到。

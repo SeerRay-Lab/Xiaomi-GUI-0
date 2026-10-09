@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 from model.adapters import AdapterBase
 from model.adapters._common import build_messages_standard
 from model.response_parser import parse_model_response

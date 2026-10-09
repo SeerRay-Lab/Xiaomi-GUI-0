@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """backend 间共享的坐标/方向工具。
 
 旧实现散落在 ADBController.modify_coordinate 和 action_executor._SWIPE_DIRECTIONS，

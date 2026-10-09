@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """App 注册表装载 + 派生映射。
 
 数据纯 YAML，代码只负责：

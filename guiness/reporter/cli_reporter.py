@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """CLI 终端渲染器：把引擎产出的 step_record 渲染成带 ANSI 颜色的进度。
 
 合并了原 `run_eval.py` 顶部和 `runner/episode_runner.py` 顶部两份几乎重复的

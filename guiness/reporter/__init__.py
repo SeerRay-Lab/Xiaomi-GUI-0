@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """评测运行进度汇报层。
 
 引擎 (EpisodeRunner) 只负责产生 step_record；渲染（ANSI 终端、Qt 信号、Web 推送 ...）

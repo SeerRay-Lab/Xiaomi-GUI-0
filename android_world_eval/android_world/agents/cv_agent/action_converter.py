@@ -1,3 +1,4 @@
+# Copyright 2026 Xiaomi Corporation.
 import logging
 from android_world.env import json_action
 

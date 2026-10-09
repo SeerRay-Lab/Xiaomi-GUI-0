@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """ConfigPage 的「模型」章节：统一的模型选择 + URL + API Key。"""
 from PySide6.QtWidgets import (
     QWidget, QGroupBox, QVBoxLayout, QHBoxLayout, QLabel,

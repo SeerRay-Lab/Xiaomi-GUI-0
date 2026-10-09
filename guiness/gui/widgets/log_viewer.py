@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """
 日志输出控件：QPlainTextEdit + logging Handler，
 将 logging 和 print 输出都重定向到 GUI。

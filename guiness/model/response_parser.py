@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """模型响应解析：把 <think>/<action>/<tool_call> 文本还原为标准 action dict。
 
 模型输出格式（参考 prompts/custom.txt）：

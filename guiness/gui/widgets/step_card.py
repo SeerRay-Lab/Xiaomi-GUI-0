@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """步骤卡片：左侧截图 + 右侧动作/思考/原始回复（水平布局）"""
 import json
 

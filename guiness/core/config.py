@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """项目配置加载入口。
 
 历史上 `utils.config_loader` 承担两件事：

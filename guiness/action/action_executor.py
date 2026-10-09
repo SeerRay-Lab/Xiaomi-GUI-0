@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """
 可插拔动作执行器
 将 Action Space 分发到 DeviceBackend 执行。不直接感知 USB/WiFi 差异。

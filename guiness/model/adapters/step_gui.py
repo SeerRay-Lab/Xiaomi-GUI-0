@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """Step-GUI (GELab-Zero-4B) adapter — <think> + TSV 格式，坐标 0-1000。"""
 from __future__ import annotations
 

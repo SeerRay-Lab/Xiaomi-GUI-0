@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """主屏欢迎页：问候语 + 示例 query chips。
 
 点击 chip 会把 query 填到下面的输入框，由用户决定是否发送。

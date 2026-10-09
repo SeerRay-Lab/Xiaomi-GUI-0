@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """启动时清理旧产物，保留 2 天。
 
 清理范围：

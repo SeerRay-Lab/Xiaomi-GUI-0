@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2026 Xiaomi Corporation.
 """屏幕镜像对话框：订阅 Guiness APP 的 /stream WebSocket，实时展示 JPEG 帧。
 
 设计原则：
